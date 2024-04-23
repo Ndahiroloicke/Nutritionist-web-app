@@ -1,0 +1,256 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+.upper-tab{
+  background-color: rgb(26,49,41);
+  padding: 4px 162px;
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.upper-div{
+  display: flex;
+  border: 1px solid white;
+  background-color: rgb(44,84,70);
+  width: 1280px;
+  padding-top: 8px;
+  height: 40px;
+  justify-content: center;
+}
+.upper-div  p{
+  margin: 0px 13px;
+  color: white;
+}
+.upper-div img{
+  width: 20.49px;
+  height: 20.49px;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(26,49,41);
+  height: 77px;
+}
+.navigation .nav-header{
+  display: flex;
+  margin: 21.5px 80px;
+}
+.navigation .nav-header img{
+  width: 40px;
+  height: 40px;
+}
+nav{
+  padding: 12px 24px;
+  margin: 16px 0;
+  margin-right: -320px;
+}
+.navigation nav ul{
+  display: flex;
+}
+.nav-header h1{
+  color: white;
+}
+ nav li{
+  list-style: none;
+  padding: 0 15px;
+}
+.navigation nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+.button button{
+  color: black;
+  background-color: rgb(203,234,123);
+  border: none;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin: 16px 80px;
+}
+.main-button{
+  padding: 14px 16px;
+  border: none;
+  background-color: rgb(203,234,123);
+  color: black;
+  border-radius: 6px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.Bigscreen{
+  display: flex;
+}
+.Bigscreen img{
+  border-bottom-right-radius: 30px;
+  width: 560px;
+  height: 590px;
+}
+.Bigscreen h3{
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.sider-text{
+  margin-left: 80px;
+  margin-top: 90px;
+}
+.sider-text p{
+  width: 600px;
+  margin-top: 23px;
+}
+.Bigscreen hr{
+  width: 400px;
+  color: rgb(203,234,123);
+  height: 3px;
+}
+.line{
+  height: 5px;
+  width: 315px;
+  background-color: rgb(203,234,123);
+  border-radius: 5px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+.big-pic .woman{
+position: absolute;
+width: 810px;
+left: -150px;
+}
+.customer-div img{
+  width: 30px;
+  height: 30px;
+  border-radius: 53px;
+  margin-left: 30px;
+  margin-top: 4px;
+}
+.customer-div .firsts{
+  position: absolute;
+  left: 618px;
+  z-index: -1;
+}
+.customer-div .third{
+  position: absolute;
+  left: 660px;
+  z-index: 1;
+}
+.locate{
+  margin-top: 78px;
+}
+.customer-div{
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+}
+.pictures{
+  border: 1px solid burlywood;
+  width: 89px;
+  border-radius: 30px;
+  height: 40px;
+}
+.customer-p{
+margin-left: 20px;
+margin-bottom: 19px;
+}
+.customer-p span{
+  color: #468671;
+  font-weight: 500;
+}
+.first-feature img{
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgb(203,234,123);
+  border-width: 6px;
+  border-radius: 6px;
+  background-color: rgb(203,234,123);
+}
+.last-feature img{
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgb(203,234,123);
+  border-width: 6px;
+  border-radius: 6px;
+  background-color: rgb(203,234,123);
+}
+.first-feature .pic-and-t{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.last-feature .pic-and-t{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.pic-and-h h3{
+  margin-left: 14px;
+}
+.pic-and-t h3{
+  margin-left: 14px;
+}
+.pic-and-h{
+  padding: -30px 50px;
+  margin-left: 50px;
+  margin-top: 43px;
+  display: flex;
+}
+.pic-and-t{
+  padding: -30px 50px;
+}
+.para{
+  width: 683px;
+}
+.pic-and-h3 img{
+  border-width: 8px;
+}
+.pic-and-t3 img{
+  border-width: 8px;
+}
+.pic-and-h2 img{
+  border-width: 8px;
+}
+.pic-and-t2 img{
+  border-width: 8px;
+}
+.first-feature{
+  border: 1px solid #E5F5BD;
+  background-color: #E5F5BD;
+  border-radius: 12px;
+  width: 630px;
+  height: 200px;
+  margin: 30px 10px;
+  margin-left: 60px;
+  padding-right: -50px;
+}
+.last-feature{
+  border-radius: 12px;
+  background-color: #E5F5BD;
+  border: 1px solid #E5F5BD;
+  width: 630px;
+  height: 200px;
+  margin: 30px 10px;
+  padding-right: 20px;
+}
+.para{
+  padding: 24px 50px;
+}
+.features{
+  display: flex;
+}
+.features h1{
+  margin-top: 150px;
+  margin-left: 463;
+}
+.features-head{
+  margin: 0px 340px;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+.features-head h1{
+  margin-left: 300px;
+  margin-bottom: 10px;
+}
+.features-head p{
+  width: 770px;
+}
