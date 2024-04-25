@@ -1,7 +1,12 @@
 import PropTypes from 'prop-types';
 import likepic from '../../assets/6cc9cba9-e626-443c-a01b-78adc5f5bca7.png';
 import profilepic from '../../assets/66ec857a-d1ba-4efe-8caa-fa64245a1167.png';
+import { useState } from 'react';
 const Firstblogs = ({ blogtitle, homepic,profile }) => {
+  const [like,setlike]= useState(false);
+  const handlelike=()=>{
+    setlike(true)
+  }
   return (
     <div className='firstblog'>
       <img src={homepic} className='bigone' alt="Blog Thumbnail" />
@@ -20,7 +25,7 @@ const Firstblogs = ({ blogtitle, homepic,profile }) => {
             <p>23 May 2023 - 5 min read</p>
           </div>
           <div className="profile-icons">
-            <img src={likepic} alt="Like" className='likepic' />
+            <img src={likepic} alt="Like"onClick={handlelike} className={like ? 'liked' : 'likepic'} />
             <img src={profilepic} alt="Share" className='share' />
           </div>
         </div>

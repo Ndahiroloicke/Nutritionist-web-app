@@ -14,11 +14,11 @@ function Testimonials() {
       </div>
       <div className="testimons">
         <Overview
-          paragraph="I can't thank Nutritionist enough for their personalized nutrition coaching. It has completely transformed my approach to food and helped me shed those extra pounds."
+          paragraph="I can't thank Nutritionist enough for their personalized nutrition coaching. It has completely transformed my approach to food and helped me shed those extra pounds. Highly recommended!"
           username="Jennifer Anderson"
           userpic={pic}
         />
-        <Overview paragraph="Nutritionist has been a game-changer for me. The expert guidance and support I received from their team made my weight loss journey so much easier. Thank you!. Highly recommended!"
+        <Overview paragraph="Nutritionist has been a game-changer for me. The expert guidance and support I received from their team made my weight loss journey so much easier. Thank you!."
         username="Robert Johnson"
         userpic={pic2}
         />

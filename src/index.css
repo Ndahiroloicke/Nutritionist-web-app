@@ -293,6 +293,15 @@ margin-bottom: 19px;
 .profile-icons .likepic{
   padding: 3px 2px;
 }
+.profile .profile-icons img .liked{
+  border: 1px solid #FF3040;
+  margin-right: 10px;
+  border-width: 5px;
+  border-radius: 4px;
+  background-color: #FF3040;
+  width: 36px;
+  height: 38px;
+}
 .profile-icons .share{
   padding: 4px 4px;
 }
@@ -314,7 +323,7 @@ margin-bottom: 19px;
   width: 550px;
 }
 .first-blogs{
-  margin-left: 60px;
+  margin-left: 65px;
   width: 650px;
   margin-right: -30px;
 }
@@ -385,4 +394,176 @@ margin-bottom: 19px;
 .testims h1{
   padding-left: 230px;
   margin-bottom: 10px;
+}
+.plans{
+  margin-left: 68px;
+  display: flex;
+}
+.plan-head h1{
+  margin: 15px 18px;
+}
+.plan-head p{
+  margin-bottom: 20px;
+  margin-left: 17px;
+}
+.desc{
+  width: 390px;
+  margin: 3px 8px;
+}
+.choose{
+  margin-left: 20px;
+}
+
+.choose button{
+  margin-top: 27px;
+  background-color: #CBEA7B;
+  border: none;
+  width: 370px;
+  height: 38px;
+  padding-top: 4px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
+.choose p{
+  font-size: 50px;
+  font-weight: 600;
+  color: #2C5446;
+}
+.choose span{
+  font-size: 18px;
+}
+.f{
+  height: 310px;
+}
+.plan-whole{
+  background-color: #F6FBE9;
+  margin-right: 20px;
+  border-radius: 12px;
+}
+.pricing{
+  margin-left: 100px;
+}
+.pricing p{
+  margin-left: 200px;
+}
+.pricing h1{
+  margin-top: 150px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+}
+.pricing span{
+  display: block;
+  margin-left: 180px;
+  margin-bottom: 80px;
+}
+.twobutts{
+  margin-left: 500px;
+  width: 200px;
+  border-radius: 8px;
+  padding: 4px 8px;
+  display: flex;
+  border: 1px solid black;
+}
+.twobutts button{
+  padding: 10px 24px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+}
+.active{
+  background-color: #234338;
+  color: white;
+}
+.inactive{
+  background-color: white;
+}
+.hims{
+  padding-left: 330px;
+  padding-top: 14px;
+  padding-bottom: 50px;
+}
+.nav2 .button{
+  display: none;
+}
+.footer{
+  margin-bottom: 30px;
+}
+.footer .button button{
+  background-color: rgb(26,49,41);
+  border: none;
+  margin-left: -412px;
+  margin-top: 18px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+.footer .button button:hover{
+  cursor: pointer;
+}
+.footer nav{
+  margin-right: 200px;
+}
+.footer .miss{
+  list-style: none;
+  position: absolute;
+  top: 4934px;
+  left: 1295px;
+}
+.footer .miss:hover{
+  cursor: pointer;
+}
+.footer .miss i{
+  color: white;
+  font-size: 35px;
+  margin: 6px;
+  border-radius: 19px;
+  background-color: #234338;
+}
+.footer p{
+  list-style: none;
+  position: absolute;
+  top: 4948px;
+  color: white;
+  margin-right: 35px;
+  left: 1210px;
+}
+.lowerfoot{
+  border: 1px solid white;
+  display: flex;
+  margin: 0px 60px;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 8px;
+  background-color: #234338;
+}
+.lowerfoot li{
+  list-style: none;
+}
+.lowerfoot i{
+  color: #CBEA7B;
+  font-size: 30px;
+}
+.lowerfoot div{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  border: 1px solid white;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+.lowerfoot div p{
+  margin-left: 8px;
+}
+.wholefoot{
+  background-color: #1A3129;
+  padding-bottom: 29px;
+}
+.wholepricing{
+  margin-bottom: 150px;
+}
+.lastp{
+  margin-top: 10px;
+  margin-left: 300px;
+  font-weight: 200;
 }
