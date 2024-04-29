@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
-import likepic from '../../assets/6cc9cba9-e626-443c-a01b-78adc5f5bca7.png';
-import profilepic from '../../assets/66ec857a-d1ba-4efe-8caa-fa64245a1167.png';
+import likepic from '../../../assets/6cc9cba9-e626-443c-a01b-78adc5f5bca7.png';
+import profilepic from '../../../assets/66ec857a-d1ba-4efe-8caa-fa64245a1167.png';
 import { useState } from 'react';
 const Firstblogs = ({ blogtitle, homepic,profile }) => {
   const [like,setlike]= useState(false);

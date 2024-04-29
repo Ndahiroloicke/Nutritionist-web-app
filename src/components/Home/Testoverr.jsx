@@ -1,5 +1,5 @@
 import Proptypes from 'prop-types'
-import pic from '../assets/45f09264-8b59-4a1a-b144-e7e5ce462478.png'
+import pic from '../../assets/45f09264-8b59-4a1a-b144-e7e5ce462478.png'
 const Overview = ({paragraph,username,userpic}) => {
   return (
     <div>

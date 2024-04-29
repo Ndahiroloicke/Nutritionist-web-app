@@ -1,12 +1,12 @@
 import Overview from "./Testoverr";
-import pic from '../assets/f3c3962dcadfffd2660cfa7ff7bbf60c6e410807.png'
-import pic2 from '../assets/89b397cc5abdfa610fca6e2c226b66fe8871bba8.png'
-import pic3 from "../assets/db8da9009ed51cc5761f4573c5c4e4ccafdc1b5b.png"
+import pic from '../../assets/f3c3962dcadfffd2660cfa7ff7bbf60c6e410807.png'
+import pic2 from '../../assets/89b397cc5abdfa610fca6e2c226b66fe8871bba8.png'
+import pic3 from "../../assets/db8da9009ed51cc5761f4573c5c4e4ccafdc1b5b.png"
 function Testimonials() {
   return (
     <div>
       <div className="testims">
-        <h1>Our Testimonials</h1>
+        <h1 className="text-3xl font-extrabold">Our Testimonials</h1>
         <p>
           Our satisfied clients share their success stories and experiences on
           their journey to better health and well-being.

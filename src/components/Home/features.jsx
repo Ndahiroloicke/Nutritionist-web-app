@@ -5,7 +5,7 @@ const Feature = () => {
   return (
     <div>
         <div className='features-head'>
-        <h1>Features</h1>
+        <h1 className='sticky top-0 font-extrabold text-3xl'>Features</h1>
         <p>Welcome to the Feature Section of Nutritionist, your ultimate destination for all things nutrition and wellness.</p>
         </div>
         <div className='features'>

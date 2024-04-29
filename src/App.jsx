@@ -1,11 +1,11 @@
-import Bigscreen from './components/Bigscreen'
-import Navbar from './components/Navbar'
-import Testimonials from './components/Testimonials'
-import Uppertab from './components/Uppertab'
-import Blogsforhome from './components/blogs/blogsrep'
-import Feature from './components/features'
-import Foot from './components/footer'
-import Price from './components/pricing'
+import Bigscreen from '../src/components/Home/Bigscreen'
+import Navbar from '../src/components/Home/Navbar'
+import Testimonials from '../src/components/Home/Testimonials'
+import Uppertab from '../src/components/Home/Uppertab'
+import Blogsforhome from '../src/components/Home/blogs/blogsrep'
+import Feature from '../src/components/Home/features'
+import Foot from '../src/components/Home/footer'
+import Price from '../src/components/Home/pricing'
 
 function App() {
   return (

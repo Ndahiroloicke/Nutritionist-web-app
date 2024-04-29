@@ -113,7 +113,7 @@ nav{
 }
 .big-pic .woman{
 position: absolute;
-width: 810px;
+width: 800px;
 left: -150px;
 }
 .customer-div img{
@@ -520,16 +520,8 @@ margin-bottom: 19px;
   border-radius: 19px;
   background-color: #234338;
 }
-.footer p{
-  list-style: none;
-  position: absolute;
-  top: 4948px;
-  color: white;
-  margin-right: 35px;
-  left: 1210px;
-}
+
 .lowerfoot{
-  border: 1px solid white;
   display: flex;
   margin: 0px 60px;
   color: white;
@@ -567,3 +559,10 @@ margin-bottom: 19px;
   margin-left: 300px;
   font-weight: 200;
 }
+.choose span{
+  margin-bottom: 6px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
