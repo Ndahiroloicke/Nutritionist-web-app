@@ -11,7 +11,7 @@ const Bigscreen = () => {
       </div>
       <div className="sider-text">
         <div>
-          <h3>Transform Your ❤️ Health with</h3>
+          <h3 className="text-3xl font-semibold">Transform Your ❤️ Health with</h3>
           <div className="line"></div>
         </div>
         <h1>

@@ -8,7 +8,7 @@ const Customers = () => {
       <div className="pictures">
         <img src={customer1} alt="" className="firsts" />
         <img src={customer2} alt="" className="second" />
-        <img src={customer3} alt="" className="third" />
+        <img src={customer3} alt="" className="third top-[627px]" />
       </div>
       <div className="customer-p">
         <p>

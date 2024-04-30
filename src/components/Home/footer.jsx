@@ -5,10 +5,7 @@ function Foot() {
     <div className="wholefoot">
       <div className="footer">
         <Navbar />
-        <li className="miss">
-          <i className="bx bxs-up-arrow-alt absolute -bottom-[165px]"></i>
-        </li>
-        <p className="text-black absolute -bottom-[660px]">Get to top</p>
+
       </div>
       <div className="lowerfoot">
         <div>
