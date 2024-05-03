@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Servicehome from "./components/services/Servicehome";
 import App from "./App";
 import Teamhome from "./components/Team/teamhome";
+import ProcessHome from "./components/Process/ProcessHome";
     
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
   {
     path: "/team",
     element: <Teamhome/>
+  },
+  {
+    path: "/process",
+    element: <ProcessHome/>
   }
 ];
 
