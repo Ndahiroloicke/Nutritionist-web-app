@@ -5,6 +5,7 @@ import Uppertab from "../Home/Uppertab";
 import Navbar from "../Home/Navbar";
 import Button2 from "./button2";
 import Pricing from "./pricing";
+import Pricingdesc from "./pricingdesc";
 
 const Pricinghome = () => {
   return (
@@ -53,6 +54,7 @@ const Pricinghome = () => {
           p5="Priority email and phone support for immediate assistance."
         />
       </div>
+      <Pricingdesc/>
     </div>
   );
 };
