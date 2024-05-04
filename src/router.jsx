@@ -3,6 +3,7 @@ import Servicehome from "./components/services/Servicehome";
 import App from "./App";
 import Teamhome from "./components/Team/teamhome";
 import ProcessHome from "./components/Process/ProcessHome";
+import Pricinghome from "./components/Pricing/Pricinghome";
     
 const routes = [
   {
@@ -20,6 +21,10 @@ const routes = [
   {
     path: "/process",
     element: <ProcessHome/>
+  },
+  {
+    path: "/pricing",
+    element: <Pricinghome/>
   }
 ];
 

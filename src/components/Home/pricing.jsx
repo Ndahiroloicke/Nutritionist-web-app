@@ -1,3 +1,4 @@
+import Butts from "./butts";
 import Plans from "./plans";
 
 function Price() {
@@ -13,11 +14,7 @@ function Price() {
             resources
           </span>
         </p>
-        <div className="twobutts w-[215px]">
-          <button className="active">Monthly</button>
-          <button className="inactive">Yearly</button>
-        </div>
-        <p className="hims">Save 50% on Yearly</p>
+        <Butts/>
       </div>
       <div className="plans">
         <Plans
