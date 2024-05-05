@@ -6,6 +6,8 @@ import Navbar from "../Home/Navbar";
 import Button2 from "./button2";
 import Pricing from "./pricing";
 import Pricingdesc from "./pricingdesc";
+import FAQ from "./FAQ";
+import Foot from "../Home/footer";
 
 const Pricinghome = () => {
   return (
@@ -55,6 +57,8 @@ const Pricinghome = () => {
         />
       </div>
       <Pricingdesc/>
+      <FAQ/>
+      <Foot/>
     </div>
   );
 };

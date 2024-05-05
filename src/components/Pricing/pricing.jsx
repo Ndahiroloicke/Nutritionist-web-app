@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const Pricing = ({p1,p2,p3,p4,p5,planh,fif,fif2,min,price,ulti1}) => {
   return (
     <div className="flex flex-col bg-[#F6FBE9] w-fit h-fit rounded-[10px]">
@@ -33,6 +34,20 @@ const Pricing = ({p1,p2,p3,p4,p5,planh,fif,fif2,min,price,ulti1}) => {
       <button className="bg-[#CBEA7B] mx-[40px] py-[10px] rounded-[6px] font-semibold mb-[30px] mt-[20px]">Choose Plan</button>
     </div>
   );
+};
+
+Pricing.propTypes = {
+  p1: PropTypes.string.isRequired,
+  p2: PropTypes.string.isRequired,
+  p3: PropTypes.string.isRequired,
+  p4: PropTypes.string.isRequired,
+  p5: PropTypes.string.isRequired,
+  planh: PropTypes.string.isRequired,
+  fif: PropTypes.string.isRequired,
+  fif2: PropTypes.string.isRequired,
+  min: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  ulti1: PropTypes.string.isRequired,
 };
 
 export default Pricing;
