@@ -4,6 +4,7 @@ import App from "./App";
 import Teamhome from "./components/Team/teamhome";
 import ProcessHome from "./components/Process/ProcessHome";
 import Pricinghome from "./components/Pricing/Pricinghome";
+import Blogshome from "./components/blogspage/blogshome";
     
 const routes = [
   {
@@ -25,6 +26,10 @@ const routes = [
   {
     path: "/pricing",
     element: <Pricinghome/>
+  },
+  {
+    path:"/blog",
+    element: <Blogshome/>
   }
 ];
 

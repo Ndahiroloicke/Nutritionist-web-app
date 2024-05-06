@@ -1,16 +1,27 @@
 
-const Expnav = () => {
+import PropTypes from "prop-types"
+
+const Expnav = ({firstnav,secondnav,thirdnav,fouthnav,fithnav,sixthnav}) => {
   return (
     <div>
-        <div className="flex flex-row ml-[100px] mr-[90px] bg-[#234338] text-[#E6E6E6] rounded-b-xl">
-            <li className="list-none mt-4 mr-[50px] mb-6 ml-[90px]"><a href="">Managment Team</a></li>
-            <li className="list-none mt-4 mr-[50px] mb-6"><a href="">Nutrition and Dietitions</a></li>
-            <li className="list-none mt-4 mr-[50px] mb-6"><a href="">Customer Support</a></li>
-            <li className="list-none mt-4 mr-[50px] mb-6"><a href="">Marketing and communication</a></li>
-            <li className="list-none mt-4 mr-[50px] mb-6"><a href="">Technology and Development</a></li>
+        <div className="flex flex-row ml-[100px] mr-[90px] px-[50px] py-[20px] bg-[#234338] justify-between text-[#E6E6E6] rounded-b-xl">
+            <li className="list-none"><a href="">{firstnav}</a></li>
+            <li className="list-none"><a href="">{thirdnav}</a></li>
+            <li className="list-none"><a href="">{secondnav}</a></li>
+            <li className="list-none"><a href="">{fouthnav}</a></li>
+            <li className="list-none"><a href="">{fithnav}</a></li>
+            <li className="list-none"><a href="">{sixthnav}</a></li>
         </div>
     </div>
   )
 }
+Expnav.propTypes = {
+  firstnav: PropTypes.string.isRequired,
+  secondnav: PropTypes.string.isRequired,
+  thirdnav: PropTypes.string.isRequired,
+  fouthnav: PropTypes.string.isRequired,
+  fithnav: PropTypes.string.isRequired,
+  sixthnav: PropTypes.string.isRequired,
+};
 
 export default Expnav
