@@ -5,6 +5,7 @@ import Teamhome from "./components/Team/teamhome";
 import ProcessHome from "./components/Process/ProcessHome";
 import Pricinghome from "./components/Pricing/Pricinghome";
 import Blogshome from "./components/blogspage/blogshome";
+import Contactushome from "./components/contact us/contactushome";
     
 const routes = [
   {
@@ -30,6 +31,9 @@ const routes = [
   {
     path:"/blog",
     element: <Blogshome/>
+  },{
+    path:"/contactus",
+    element: <Contactushome/>
   }
 ];
 
