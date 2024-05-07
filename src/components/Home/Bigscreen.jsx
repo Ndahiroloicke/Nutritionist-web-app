@@ -14,7 +14,7 @@ const Bigscreen = () => {
           <h3 className="text-3xl font-semibold">Transform Your ❤️ Health with</h3>
           <div className="line"></div>
         </div>
-        <h1>
+        <h1 className="text-[48px] font-bold">
           Personalized Nutrition <br /> Coaching
         </h1>
         <p>

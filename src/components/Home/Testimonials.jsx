@@ -1,7 +1,7 @@
 import Overview from "./Testoverr";
-import pic from '../../assets/f3c3962dcadfffd2660cfa7ff7bbf60c6e410807.png'
-import pic2 from '../../assets/89b397cc5abdfa610fca6e2c226b66fe8871bba8.png'
-import pic3 from "../../assets/db8da9009ed51cc5761f4573c5c4e4ccafdc1b5b.png"
+import pic from '../../assets/mark.png'
+import pic2 from '../../assets/Emily-1.png'
+import pic3 from "../../assets/Emily-2.png"
 function Testimonials() {
   return (
     <div>
@@ -12,7 +12,7 @@ function Testimonials() {
           their journey to better health and well-being.
         </p>
       </div>
-      <div className="testimons">
+      <div className="flex flex-row justify-between mx-[70px]">
         <Overview
           paragraph="I can't thank Nutritionist enough for their personalized nutrition coaching. It has completely transformed my approach to food and helped me shed those extra pounds. Highly recommended!"
           username="Jennifer Anderson"
