@@ -4,10 +4,10 @@ import arrow from "../../assets/0b2121be-db92-4638-91ee-d13867bcfbd7.png";
 
 const Uppertab = () => {
   return (
-    <div className="upper-tab">
+    <div className="upper-tab w-[100%] md:w-[100%]">
               <div className="upper-div">
-               <img src={pic} className="unkown" />
-                <p>Join Our Personalised Nutrition Demo for free </p>
+               <img src={pic} className="unkown w-[17.08px] h-[17.08px] md:w-[]" />
+                <p className="text-[14px] md:text-[16px]">Join Our Personalised Nutrition Demo for free </p>
           <img src={arrow} className="arrow" />
 
       </div>

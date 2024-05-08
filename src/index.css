@@ -6,17 +6,13 @@
 }
 .upper-tab{
   background-color: rgb(26,49,41);
-  padding: 4px 162px;
-  display: flex;
-  padding-top: 14px;
-  padding-bottom: 14px;
 }
 
 .upper-div{
   display: flex;
   border: 1px solid white;
   background-color: rgb(44,84,70);
-  width: 1280px;
+  width: 100%;
   padding-top: 8px;
   height: 40px;
   justify-content: center;

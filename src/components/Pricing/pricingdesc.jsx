@@ -5,7 +5,7 @@ import Pri from "./pri"
 
 const Pricingdesc = () => {
   return (
-    <div className='bg-[#EEF8D3] mx-[80px] h-[1150px] mt-12 rounded-[12px]'>
+    <div className='bg-[#F6FBE9] mx-[80px] h-[1150px] mt-12 rounded-[12px]'>
         <div className='px-[60px] py-[80px]'>
         <div className='flex flex-row justify-between'>
             <p className='bg-[#234338] text-white py-[16px] px-[24px] text-[20px] font-medium w-[392px] h-[62px] rounded-[8px]'>Features</p>
