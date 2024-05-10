@@ -4,11 +4,11 @@ import customer3 from "../../assets/9d2a1b366698253784e4dad493b5f48bce3f4563.png
 
 const Customers = () => {
   return (
-    <div className="customer-div">
+    <div className="customer-div flex flex-col md:flex-row w-[150px]">
       <div className="pictures">
-        <img src={customer1} alt="" className="firsts" />
+        <img src={customer1} alt="" className="absolute -top-[18px] left-[20px]" />
         <img src={customer2} alt="" className="second" />
-        <img src={customer3} alt="" className="third top-[722px]" />
+        <img src={customer3} alt="" className="hidden md:block" />
       </div>
       <div className="customer-p">
         <p>

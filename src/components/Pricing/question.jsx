@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Qadd from "../../assets/Qadd.png";
 import Qcross from "../../assets/Qcross.png";
+import Proptypes from "prop-types"
 
 const Question = ({Qt,longp}) => {
   const [cross, setcross] = useState(false);
@@ -40,5 +41,9 @@ const Question = ({Qt,longp}) => {
     </div>
   );
 };
+Question.propTypes ={
+  Qt: Proptypes.string.isRequired,
+  longp: Proptypes.string.isRequired
+}
 
 export default Question;

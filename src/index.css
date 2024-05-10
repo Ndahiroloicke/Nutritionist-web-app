@@ -78,11 +78,7 @@ nav{
 .Bigscreen{
   display: flex;
 }
-.Bigscreen img{
-  border-bottom-right-radius: 30px;
-  width: 560px;
-  height: 590px;
-}
+
 .Bigscreen h3{
   font-size: 22px;
   margin-bottom: 25px;
@@ -90,10 +86,6 @@ nav{
 .sider-text{
   margin-left: 80px;
   margin-top: 90px;
-}
-.sider-text p{
-  width: 600px;
-  margin-top: 23px;
 }
 .Bigscreen hr{
   width: 400px;
@@ -108,27 +100,12 @@ nav{
   margin-top: -15px;
   margin-bottom: 10px;
 }
-.big-pic .woman{
-position: absolute;
-width: 800px;
-left: -150px;
-}
 .customer-div img{
   width: 30px;
   height: 30px;
   border-radius: 53px;
   margin-left: 30px;
   margin-top: 4px;
-}
-.customer-div .firsts{
-  position: absolute;
-  left: 618px;
-  z-index: -1;
-}
-.customer-div .third{
-  position: absolute;
-  left: 660px;
-  z-index: 1;
 }
 .locate{
   margin-top: 78px;
