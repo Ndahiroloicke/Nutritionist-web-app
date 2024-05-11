@@ -4,7 +4,7 @@ const Plans = ({planname,plandescription,price}) => {
   return (
     <div className='plan-whole'>
         <div className='plan-head'>
-            <h1>{planname}</h1>
+            <h1 className='text-[30px] font-semibold'>{planname}</h1>
             <p>Up to 50% off Yearly plan</p>
             <p className='desc'>{plandescription}</p>
         </div>

@@ -11,26 +11,25 @@ function Blogsforhome() {
   return (
     <div className="font-sans">
       <div className="ml-[80px] mb-[60px]">
-        <h1 className="font-extrabold mx-[35px] text-3xl">
+        <h1 className="font-extrabold ml-[550px] mb-[6px] text-3xl">
           Our Blogs
         </h1>
-        <p className="md:ml-[210px] w-[320px] font-medium -ml-[35px] my-[4px]">
+        <p className="ml-[210px]">
           Our blog is a treasure trove of informative and engaging articles
-          written by our team of nutritionists, dietitians, and wellness
-          <span className="md:block md:ml-[210px]">
+          written by our team of nutritionists, dietitians, and wellness{" "}
+          <span className="block ml-[210px]">
             experts. Here is what you can expect from our blog.
           </span>
         </p>
       </div>
-      <div className="flex flex-col mx-[10px] md:flex-row justify-between md:mx-[60px]">
-        <div className=" mr-[60px]">
+      <div className="flex flex-row justify-between mx-[60px]">
+        <div className="">
           <Firstblogs
             blogtitle="Weight Loss"
             homl="Discover how staying hydrated can support your weight loss goals and improve overall health."
             homep="The Benefits of Hydration for Weight Loss"
             homepic={pic1}
             profile={em3}
-            nam="Mark Johnson"
           />
           <Firstblogs
             blogtitle="Understanding Macronutrients"
@@ -38,7 +37,6 @@ function Blogsforhome() {
             homl="Get a comprehensive understanding of macronutrients and their role in your diet for optimal health and weight management."
             profile={em}
             homep="Carbohydrates, Proteins, and Fats"
-            nam="Sarah Thompson"
           />
         </div>
         <div className="">
@@ -48,7 +46,6 @@ function Blogsforhome() {
             homep="Cultivating a Healthy Relationship with Food"
             homepic={pic2}
             profile={pic}
-            nam="Mark Wilson"
           />
           <Firstblogs
             blogtitle="Healthy Snacks on the Go"
@@ -56,7 +53,6 @@ function Blogsforhome() {
             profile={em2}
             homl="Explore a variety of convenient and healthy snack ideas to keep you fueled throughout the day."
             homep="Quick and Nutritious Options"
-            nam="Emily Wilson"
           />
         </div>
       </div>
