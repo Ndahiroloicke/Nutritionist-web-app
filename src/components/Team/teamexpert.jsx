@@ -3,6 +3,10 @@ import abs from "../../assets/Abstract Design.png";
 import cont from "../../assets/Container.png";
 import Expert from "./Expert";
 import Homepic from "./homepic";
+import pic from "../../assets/Sarah.png"
+import pi2 from "../../assets/Thompson.png"
+import pic3 from "../../assets/davis2.png"
+import pic4 from "../../assets/adams.png"
 
 const Teamexp = () => {
   return (
@@ -17,10 +21,10 @@ const Teamexp = () => {
           />
           <Expnav firstnav="Management Team" secondnav="Nutritionists and Dietitians" thirdnav="Customer Support" fouthnav="Marketing and Communications" fithnav="Technology and Development" />
         <div className="flex flex-row">
-          <Expert />
-          <Expert />
-          <Expert />
-          <Expert />
+          <Expert pic={pic} expname="Sarah Mitchell" exprole="Founder and CEO"/>
+          <Expert  pic={pi2} expname="Emily Thompson" exprole="Chief Operating Officer"/>
+          <Expert pic={pic3} expname="John Davis" exprole="Chief Financial Officer"/>
+          <Expert  pic={pic4} expname="Rachel Adams" exprole="Chief Marketing Officer"/>
         </div>
       </div>
     </div>

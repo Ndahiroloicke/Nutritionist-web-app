@@ -10,10 +10,10 @@ const Firstblogs = ({ blogtitle, homepic, profile, homep, homl, nam }) => {
   };
 
   return (
-    <div className=" w-[630px] bg-[#F6FBE9] mb-[20px] rounded-[10px] p-[30px]">
+    <div className="max-w-[630px] bg-[#F6FBE9] mb-[20px] rounded-[10px] p-[30px]">
       <img
         src={homepic}
-        className="w-[570px] rounded-[12px] h-[377px]"
+        className="bg-cover rounded-[12px] h-[377px]"
         alt="Blog Thumbnail"
       />
       <div>
@@ -26,19 +26,22 @@ const Firstblogs = ({ blogtitle, homepic, profile, homep, homl, nam }) => {
           <img
             src={profile}
             alt="Author Profile"
-            className="w-[50px] h-[50px]"
+            className="max-w-[50px] h-[50px]"
           />
           <div className="mr-[80px] ml-[14px] w-[325px]">
             <h3 className="text-[18px] font-semibold">{nam}</h3>
             <p className="text-[15px]">23 May 2023 - 5 min read</p>
           </div>
           <div className="flex flex-row">
-            <li
-              className="list-none mr-[12px]"
-              onClick={handleLikeClick}
-            >
+            <li className="list-none mr-[12px]" onClick={handleLikeClick}>
               {/* Conditionally render red or black heart icon */}
-              <i className={liked ? "bx bxs-heart text-[30px] text-red-600" : "bx bxs-heart text-[30px] text-black"}></i>
+              <i
+                className={
+                  liked
+                    ? "bx bxs-heart text-[30px] text-red-600"
+                    : "bx bxs-heart text-[30px] text-black"
+                }
+              ></i>
             </li>
             <li className="list-none">
               <i className="bx bx-share-alt text-[30px]"></i>

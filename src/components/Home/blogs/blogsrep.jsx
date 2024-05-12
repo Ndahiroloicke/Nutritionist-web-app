@@ -7,23 +7,22 @@ import pic from "../../../assets/Emily-1.png";
 import em from "../../../assets/Emily-2.png";
 import em3 from "../../../assets/mark.png";
 import em2 from "../../../assets/Sarah-1.png";
+
 function Blogsforhome() {
   return (
-    <div className="font-sans">
-      <div className="ml-[80px] mb-[60px]">
-        <h1 className="font-extrabold ml-[550px] mb-[6px] text-3xl">
-          Our Blogs
-        </h1>
-        <p className="ml-[210px]">
+    <div className="font-sans my-8">
+      <div className="flex flex-col justify-center items-center">
+        <h1 className="font-extrabold mb-[6px] text-3xl">Our Blogs</h1>
+        <p className="text-balance text-center">
           Our blog is a treasure trove of informative and engaging articles
           written by our team of nutritionists, dietitians, and wellness{" "}
-          <span className="block ml-[210px]">
+          <span className="block text-balance text-center">
             experts. Here is what you can expect from our blog.
           </span>
         </p>
       </div>
-      <div className="flex flex-row justify-between mx-[60px]">
-        <div className="">
+      <div className="flex flex-col justify-between md:mx-[60px] mx-3 my-8">
+        <div className="flex sm:flex-row flex-col gap-4">
           <Firstblogs
             blogtitle="Weight Loss"
             homl="Discover how staying hydrated can support your weight loss goals and improve overall health."
@@ -39,7 +38,7 @@ function Blogsforhome() {
             homep="Carbohydrates, Proteins, and Fats"
           />
         </div>
-        <div className="">
+        <div className="flex sm:flex-row flex-col gap-4">
           <Firstblogs
             blogtitle="Mindful Eating"
             homl="Learn how practicing mindful eating can help you develop a healthier relationship with food and improve your overall well-being."

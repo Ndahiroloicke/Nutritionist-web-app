@@ -1,5 +1,5 @@
 // Price.js
-import  { useState } from "react";
+import { useState } from "react";
 import Butts from "./butts";
 import Plans from "./plans";
 import PropTypes from "prop-types";
@@ -8,10 +8,12 @@ function Price() {
   const [yearlyPricing, setYearlyPricing] = useState(false);
 
   return (
-    <div className="wholepricing">
-      <div className="pricing">
-        <h1 className="text-3xl font-extrabold">Our pricing</h1>
-        <p>
+    <div className="flex flex-col my-8">
+      <div className="flex flex-col w-full justify-center items-center gap-4 mt-7">
+        <h1 className="text-3xl font-extrabold text-balance text-center">
+          Our pricing
+        </h1>
+        <p className="text-balance text-center sm:w-[1000px]">
           We outline our flexible and affordable options to support you on your
           journey to optimal health and nutrition. We believe that{" "}
           <span>
@@ -19,10 +21,13 @@ function Price() {
             resources
           </span>
         </p>
-        <Butts setYearlyPricing={setYearlyPricing}  yearlyPricing={yearlyPricing}/>
+        <Butts
+          setYearlyPricing={setYearlyPricing}
+          yearlyPricing={yearlyPricing}
+        />
       </div>
       {yearlyPricing ? (
-        <div className="plans mt-[40px]">
+        <div className="flex flex-wrap justify-center mt-[40px] sm:mx-0 mx-3">
           <Plans
             plandescription="Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.personalized recipe recommendations "
             planname="Basic Plan"
@@ -41,7 +46,7 @@ function Price() {
           />
         </div>
       ) : (
-        <div className="plans mt-[40px]">
+        <div className="flex flex-wrap justify-center mt-[40px] sm:mx-0 mx-3">
           <Plans
             plandescription="Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.personalized recipe recommendations "
             planname="Basic Plan"
