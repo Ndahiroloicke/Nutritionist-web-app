@@ -6,13 +6,28 @@ import Homepic from "../Team/homepic";
 import Expnav from "../Team/expnav";
 import Foot from "../Home/footer";
 import Displayblog from "./displayblog";
+import { useState } from "react";
+import usefetch from "./usefetch";
+
 
 
 const Blogshome = () => {
+  const {data:items} = usefetch("http://localhost:3000/blogs");
+
+  const [menuitems,setmenuitems] = useState(items)
+
+  const filterItems = (id) => {
+    if(id == "all"){
+      setmenuitems(items)
+      return;
+    }
+    const newitems = items.filter((items)=>items.id == id);
+    setmenuitems(newitems);
+  }
   return (
     <div>
       <Uppertab />
-      <Navbar />
+      <Navbar />  
       <Homepic
         abs={abs}
         cont={cont}
@@ -21,14 +36,15 @@ const Blogshome = () => {
         p="Welcome to the Blog section of Nutritionist, your trusted source for insightful articles, tips, and expert advice on nutrition and wellness. Here, we strive to provide you with engaging and informative content that will inspire and empower you to make informed decisions about your health. Explore our blog to discover a wealth of resources that cover a wide range of topics related to nutrition, fitness, and overall well-being."
       />
       <Expnav
-        sixthnav="Recipes and Meal Planning"
-        fithnav="Mindset and Motivation"
-        secondnav="Weight Loss Tips"
-        thirdnav="Healthy Eating"
-        fouthnav="Fitness and Exercise"
-        firstnav="All"
+        firstnav = "All"
+        handle={filterItems}
+        secondnav = "Weight Loss Tips"
+        thirdnav = "Healthy Eating"
+        fourthnav ="fitness and Exercises"
+        fifthnav = "Mindset and Motivation"
+        sixthnav = "Recipes and Meal Planning "
       />
-     <Displayblog/>
+     <Displayblog blog={menuitems}/>
       <Foot />
     </div>
   );
