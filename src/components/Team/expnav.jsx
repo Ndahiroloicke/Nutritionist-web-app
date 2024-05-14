@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 
 const navigation = {
   management: "management",
@@ -37,12 +37,12 @@ const Expnav = ({
     technology: false,
     Recipe:false
   });
-  
-
   const handleclick = (nav) => {
     dispatch({ type: "SELECT_NAV", nav });
   };
-
+  useEffect(()=>{
+    {state.management && handle("all")}
+  },[handle,state.management])
   const handleClickPreventDefault = (event, nav) => {
     event.preventDefault();
     handleclick(nav);

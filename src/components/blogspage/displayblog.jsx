@@ -1,10 +1,10 @@
 import Blogsample from "./blogsample";
 import PropTypes from "prop-types";
+import mist from "../../assets/Spin@1x-1.0s-200px-200px.svg"
 
 const Displayblog = ({blog}) => {
-
-  if (!blog) {
-    return <div>Loading...</div>; // Render a loading indicator or any appropriate message while waiting for data
+    if (!blog) {
+    return <div><img src={mist} className="ml-[650px] mb-[1000px] mt-[50px] h-[50px] " /></div>; // Render a loading indicator or any appropriate message while waiting for data
   }
 
   return (

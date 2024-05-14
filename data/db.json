@@ -84,5 +84,31 @@
       "introp": "Find effective strategies to stay motivated and overcome obstacles during your weight loss journey. Get tips on setting realistic goals, tracking progress, and celebrating achievements.",
       "body":"Discover proven strategies for long-term weight loss success. Learn how to create healthy habits, set achievable goals, and make sustainable lifestyle changes.Discover proven strategies for long-term weight loss success. Learn how to create healthy habits, set achievable goals, and make sustainable lifestyle changes."
     }
+  ],
+  "Employees":[
+    {
+      "category":"Management",
+      "pic":"../src/assets/Sarah.png",
+      "name":"Sarah Mitchell",
+      "role":"Founder and CEO"
+    },
+    {
+      "category":"Management",
+      "pic": "../src/assets/Thompson.png",
+      "name":"Emily Thompson",
+      "role":"Chief Operating Officer"
+    },
+    {
+      "category":"Management",
+      "pic":"../src/assets/davis2.png",
+      "name":"John Davis",
+      "role":"Chief Financial Officer"
+    },
+    {
+      "category":"Management",
+      "pic": "../src/assets/adams.png",
+      "name":"Rachel adams",
+      "role":"Chief Marketing Officer"
+    }
   ]
 }

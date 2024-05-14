@@ -4,7 +4,7 @@ const usefetch = (url) =>{
     const [data,setdata] = useState(null)
     useEffect(() =>{
       setTimeout(()=>{
-        fetch(url)
+        fetch(url)  
         .then((response) =>{
           if(response.ok == false){
             throw Error("Oops could not fetch the data")
