@@ -12,11 +12,11 @@ import usefetch from "./usefetch";
 
 
 const Blogshome = () => {
-  const {data:items} = usefetch("http://localhost:3000/blogs");
+  const {data:items} = usefetch("http://localhost:7000/blogs");
 
   const [menuitems,setmenuitems] = useState(items)
 
-  const filterItems = (id) => {
+  function filterItems (id){
     if(id == "all"){
       setmenuitems(items)
       return;
@@ -37,7 +37,7 @@ const Blogshome = () => {
       />
       <Expnav
         firstnav = "All"
-        handle={filterItems}
+        handleClickTest={filterItems}
         secondnav = "Weight Loss Tips"
         thirdnav = "Healthy Eating"
         fourthnav ="fitness and Exercises"
@@ -50,4 +50,6 @@ const Blogshome = () => {
   );
 };
 
+
 export default Blogshome;
+
