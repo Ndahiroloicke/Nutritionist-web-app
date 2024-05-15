@@ -1,4 +1,5 @@
 import Proptypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Plans = ({ planname, plandescription, price }) => {
   return (
@@ -13,7 +14,7 @@ const Plans = ({ planname, plandescription, price }) => {
           {price}
           <span>/Monthly</span>
         </p>
-        <button>Choose Plan</button>
+       <Link to="/pricing"> <button>Choose Plan</button> </Link>
       </div>
     </div>
   );

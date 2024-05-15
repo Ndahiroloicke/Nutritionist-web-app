@@ -1,25 +1,30 @@
-import { useState,useEffect } from "react"
+import { useState, useEffect } from "react";
 
-const usefetch = (url) =>{
-    const [data,setdata] = useState(null)
-    useEffect(() =>{
-      setTimeout(()=>{
-        fetch(url)  
-        .then((response) =>{
-          if(response.ok == false){
-            throw Error("Oops could not fetch the data")
-          }else{
-            return response.json();
-          }
-        })
-        .then((data)=>{
-          setdata(data)
-        })
-        .catch((e)=>{
-          console.log(e.message)
-        });
-      },1000)
-    },[url])
-    return{data}
-  }
-  export default usefetch;
+const usefetch = (url) => {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        setLoading(true);
+        const resp = await fetch(url);
+        if (!resp.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const data = await resp.json();
+        setData(data);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    getData();
+  }, [url]);
+
+  return { data, loading };
+};
+
+export default usefetch;

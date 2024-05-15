@@ -13,15 +13,16 @@ import usefetch from "./usefetch";
 
 const Blogshome = () => {
   const {data:items} = usefetch("http://localhost:7000/blogs");
+  const [menuitems, setmenuitems] = useState(items);
 
-  const [menuitems,setmenuitems] = useState(items)
-
-  function filterItems (id){
-    if(id == "all"){
-      setmenuitems(items)
+  function filterItems({id,category}) {
+    if (id === "managment" || category === "Management") {
+      setmenuitems(items);
       return;
     }
-    const newitems = items.filter((items)=>items.id == id);
+    const newitems = items.filter(
+      (item) => item.id === id || item.category === category
+    );
     setmenuitems(newitems);
   }
   return (

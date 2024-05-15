@@ -13,6 +13,7 @@ const Displayblog = ({blog}) => {
         <div className="grid grid-cols-2 gap-y-2 gap-x-3">
           {blog.map((item) => {
             return (
+              <div key={item.num}>
               <Blogsample
                 cla={"bg-[#EEF8D3] w-[600px] h-[532px] pl-[40px] rounded-[10px] border-[#828d65] border-[0.1px]"}
                 key={item.body}
@@ -20,7 +21,9 @@ const Displayblog = ({blog}) => {
                 desch={item.title}
                 ph={item.introp}
                 pic={item.image}
+                db= {item.num}
               />
+              </div>
             );
           })}
         </div>

@@ -6,6 +6,7 @@ import ProcessHome from "./components/Process/ProcessHome";
 import Pricinghome from "./components/Pricing/Pricinghome";
 import Blogshome from "./components/blogspage/blogshome";
 import Contactushome from "./components/contact us/contactushome";
+import Blogdetails from "./components/blogspage/blogdetail";
     
 const routes = [
   {
@@ -34,6 +35,10 @@ const routes = [
   },{
     path:"/contactus",
     element: <Contactushome/>
+  }
+  ,{
+    path:"/blogs/:num",
+    element: <Blogdetails/>
   }
 ];
 
