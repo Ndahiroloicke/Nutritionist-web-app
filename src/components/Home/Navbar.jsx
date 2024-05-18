@@ -4,10 +4,10 @@ import menu from "../../assets/menu.png"
 const Navbar = () => {
   return (
     <div className=" bg-[#1A3129] flex flex-row justify-between -pb-[30px] px-[10px] md:px-[40px]">
-      <div className=" flex flex-row mt-[10px] md:mt-[20px]">
+     <Link to="/"> <div className=" flex flex-row mt-[10px] md:mt-[20px]">
         <img src={headpic} className="w-[38px] h-[38px]"/>
         <h1 className="text-[20px] font-extrabold mt-[4px] md:mt-[5px] text-white">Nutritionist</h1>
-      </div>
+      </div></Link>
       <nav className="text-white">
         <ul className="hidden sm:flex flex-row">
           <li>

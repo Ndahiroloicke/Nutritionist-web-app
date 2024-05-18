@@ -8,12 +8,12 @@ function Price() {
   const [yearlyPricing, setYearlyPricing] = useState(false);
 
   return (
-    <div className="flex flex-col my-8">
+    <div className="flex flex-col my-[200px]">
       <div className="flex flex-col w-full justify-center items-center gap-4 mt-7">
-        <h1 className="text-3xl font-extrabold text-balance text-center">
+        <h1 className="text-3xl mb-[50px] font-extrabold text-balance text-center">
           Our pricing
         </h1>
-        <p className="text-balance text-center sm:w-[1000px]">
+        <p className="text-balance mb-[20px1] text-center sm:w-[1000px]">
           We outline our flexible and affordable options to support you on your
           journey to optimal health and nutrition. We believe that{" "}
           <span>

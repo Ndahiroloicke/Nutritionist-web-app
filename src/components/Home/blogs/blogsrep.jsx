@@ -10,10 +10,10 @@ import em2 from "../../../assets/Sarah-1.png";
 
 function Blogsforhome() {
   return (
-    <div className="font-sans my-8">
+    <div className="font-sans my-[100px]">
       <div className="flex flex-col justify-center items-center">
-        <h1 className="font-extrabold mb-[6px] text-3xl">Our Blogs</h1>
-        <p className="text-balance text-center">
+        <h1 className="font-extrabold mb-[50px] text-3xl ">Our Blogs</h1>
+        <p className="text-balance mb-[40px] text-center">
           Our blog is a treasure trove of informative and engaging articles
           written by our team of nutritionists, dietitians, and wellness{" "}
           <span className="block text-balance text-center">

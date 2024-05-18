@@ -4,12 +4,12 @@ import pic2 from "../../assets/Emily-1.png";
 import pic3 from "../../assets/Emily-2.png";
 function Testimonials() {
   return (
-    <div className="flex flex-col gap-4 my-8 mx-3">
+    <div className="flex flex-col gap-4 my-[60px] mx-3">
       <div className="flex w-full justify-center items-center flex-col gap-3">
-        <h1 className="text-3xl text-balance text-center font-extrabold">
+        <h1 className="text-3xl mb-[40px] text-balance text-center font-extrabold">
           Our Testimonials
         </h1>
-        <p className="text-balance text-center">
+        <p className="text-balance mb-[50px] text-center">
           Our satisfied clients share their success stories and experiences on
           their journey to better health and well-being.
         </p>
