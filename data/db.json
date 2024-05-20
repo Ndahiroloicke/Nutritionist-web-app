@@ -87,8 +87,7 @@
       "title": "Healthy and Flavorful Lunch Ideas for a Busy Lifestyle",
       "introp": "Explore delicious and nutritious lunch options that are perfect for those with busy schedules. Discover easy-to-make recipes and meal ideas that will keep you energized and satisfied throughout the day.",
       "body": "Maintaining a healthy diet can be challenging, especially for those with busy lifestyles. However, with some planning and creativity, it's possible to enjoy delicious and nutritious lunches that will fuel your body and keep you satisfied until dinner. Here are some healthy and flavorful lunch ideas for a busy lifestyle:1. Mason Jar SaladsMason jar salads are a convenient and portable option for busy individuals. Simply layer your favorite salad ingredients in a mason jar, starting with the dressing at the bottom and adding heavier ingredients like grains or proteins on top. When you're ready to eat, just shake the jar to distribute the dressing evenly, and enjoy a fresh and flavorful salad on the go.2. Veggie WrapsWraps are another great option for a quick and easy lunch. Fill a whole wheat or spinach tortilla with your favorite veggies, such as lettuce, tomatoes, cucumbers, bell peppers, and avocado. Add some protein, like grilled chicken or tofu, and a spread, such as hummus or pesto, for extra flavor. Roll up the wrap tightly, slice it in half, and you have a satisfying and nutritious meal ready to eat.3. Quinoa SaladQuinoa salad is a versatile dish that can be customized with whatever ingredients you have on hand. Cook quinoa according to package instructions and let it cool. Then, toss it with chopped veggies, such as bell peppers, cherry tomatoes, cucumbers, and red onion. Add some protein, like chickpeas or grilled shrimp, and a flavorful dressing, such as lemon vinaigrette or tahini sauce. Quinoa salad can be enjoyed cold or at room temperature, making it perfect for meal prep.4. Soup and Salad ComboA combination of soup and salad is a classic lunch option that never disappoints. Pair a hearty vegetable soup, such as minestrone or lentil, with a side salad loaded with leafy greens and colorful veggies. Add some whole grain bread or crackers on the side for a satisfying and filling meal that will keep you fueled throughout the afternoon.5. Bento BoxA bento box is a fun and customizable way to pack a balanced lunch. Fill the compartments with a variety of healthy foods, such as sliced fruits and veggies, whole grain crackers or rice cakes, lean protein, like grilled chicken or hard-boiled eggs, and a small treat, such as dark chocolate or nuts. Bento boxes are not only nutritious but also visually appealing, making them perfect for kids and adults alike.These are just a few ideas to get you started, but the possibilities are endless when it comes to creating healthy and flavorful lunches for a busy lifestyle. With a little planning and preparation, you can enjoy delicious meals that will nourish your body and keep you feeling energized throughout the day."
-    }
-    ,
+    },
     {
       "id": "Recipe and Meal Planning",
       "num": 12,
@@ -97,80 +96,142 @@
       "introp": "Discover delicious and healthy dinner recipes that are perfect for promoting weight loss. These satisfying meals are packed with nutrients and flavor, making them ideal for anyone looking to shed pounds without sacrificing taste.",
       "body": "Finding dinner recipes that are both satisfying and conducive to weight loss can be a challenge, but it's not impossible. With the right ingredients and cooking techniques, you can enjoy delicious meals that support your weight loss goals. Here are some satisfying and nutritious dinner recipes to try:1. Grilled Salmon with Asparagus and QuinoaThis simple yet flavorful meal is packed with protein, fiber, and healthy fats. Season salmon fillets with lemon juice, garlic, and herbs, then grill until cooked through. Serve with roasted asparagus and a side of quinoa cooked in vegetable broth for added flavor. This balanced meal will keep you feeling full and satisfied without weighing you down.2. Turkey Taco Lettuce WrapsThese turkey taco lettuce wraps are a healthier alternative to traditional tacos but are just as tasty. Cook ground turkey with taco seasoning, then spoon it onto large lettuce leaves. Top with your favorite taco toppings, such as diced tomatoes, avocado, shredded cheese, and salsa. These wraps are low in carbs and calories but high in flavor, making them perfect for weight loss.3. Veggie Stir-Fry with Brown RiceStir-fries are quick, easy, and infinitely customizable, making them perfect for weeknight dinners. Sautee your favorite vegetables, such as bell peppers, broccoli, carrots, and snap peas, in a wok or skillet with garlic, ginger, and soy sauce. Serve over cooked brown rice for a satisfying and nutritious meal that's packed with fiber and vitamins.4. Spaghetti Squash PrimaveraSwap out traditional pasta for spaghetti squash in this lighter take on pasta primavera. Roast spaghetti squash until tender, then use a fork to scrape out the strands. Toss with sauteed vegetables, such as cherry tomatoes, zucchini, mushrooms, and spinach, in a light garlic and olive oil sauce. Top with grated Parmesan cheese for added flavor. This dish is low in calories but high in flavor and nutrients, making it perfect for weight loss.5. Lentil and Vegetable SoupSoup is a great option for weight loss because it's low in calories but high in volume, helping you feel full and satisfied. This lentil and vegetable soup is hearty, nutritious, and incredibly flavorful. Simmer lentils with carrots, celery, onions, garlic, tomatoes, and vegetable broth until tender. Season with herbs and spices, such as thyme, oregano, and bay leaves, for added flavor. Enjoy this soup as a filling and comforting dinner that won't derail your weight loss efforts.These are just a few examples of satisfying and nutritious dinner recipes that can support your weight loss goals. By focusing on whole, nutrient-dense ingredients and incorporating plenty of vegetables, lean proteins, and healthy fats into your meals, you can enjoy delicious dinners that promote weight loss and overall health."
     }
-    
   ],
   "Employees": [
     {
       "category": "Management",
       "pic": "../src/assets/Sarah.png",
       "name": "Sarah Mitchell",
-      "role": "Founder and CEO"
+      "role": "Founder and CEO",
+      "id": "c7da"
     },
     {
       "category": "Management",
       "pic": "../src/assets/Thompson.png",
       "name": "Emily Thompson",
-      "role": "Chief Operating Officer"
+      "role": "Chief Operating Officer",
+      "id": "512f"
     },
     {
       "category": "Management",
       "pic": "../src/assets/davis2.png",
       "name": "John Davis",
-      "role": "Chief Financial Officer"
+      "role": "Chief Financial Officer",
+      "id": "c1a0"
     },
     {
       "category": "Management",
       "pic": "../src/assets/adams.png",
       "name": "Rachel Adams",
-      "role": "Chief Marketing Officer"
+      "role": "Chief Marketing Officer",
+      "id": "4f7e"
     },
     {
       "category": "Nutritionist",
       "pic": "../src/assets/davis2.png",
       "name": "Dr. Shawn Mercy",
-      "role": "Nutritionist"
+      "role": "Nutritionist",
+      "id": "8587"
     },
     {
       "category": "Nutritionist",
       "pic": "../src/assets/Sarah.png",
       "name": "Dr. Klaus Mikaelson",
-      "role": "Nutritionist Assistant"
+      "role": "Nutritionist Assistant",
+      "id": "c403"
     },
     {
       "category": "Support",
       "pic": "../src/assets/Sarah.png",
       "name": "Bowen Higgins",
-      "role": "Call Center"
+      "role": "Call Center",
+      "id": "ab3c"
     },
     {
       "category": "Support",
       "pic": "../src/assets/adams.png",
       "name": "Kylan Gentry",
-      "role": "Customer Services Manager"
+      "role": "Customer Services Manager",
+      "id": "f3c0"
     },
     {
       "category": "Marketing",
       "pic": "../src/assets/Thompson.png",
       "name": "Franklin Sierra",
-      "role": "Chief Marketing Officer"
+      "role": "Chief Marketing Officer",
+      "id": "0e0c"
     },
     {
       "category": "Marketing",
       "pic": "../src/assets/davis2.png",
       "name": "Marceline Avila",
-      "role": "Executive Marketing Officer"
+      "role": "Executive Marketing Officer",
+      "id": "5927"
     },
     {
       "category": "Technology",
       "pic": "../src/assets/Thompson.png",
       "name": "John Davis",
-      "role": "Technician"
+      "role": "Technician",
+      "id": "3083"
     },
     {
       "category": "Technology",
       "pic": "../src/assets/adams.png",
       "name": "Leighton Kramer",
-      "role": "Innovative Technology"
+      "role": "Innovative Technology",
+      "id": "893e"
+    }
+  ],
+  "question": [
+    {
+      "fullname": "",
+      "email": "",
+      "phone": "",
+      "message": "",
+      "id": "589c"
+    },
+    {
+      "id": "f9e8",
+      "full": "vluiho",
+      "email": "lh/",
+      "phone": "546978",
+      "message": "iugylgvuho'ig;yflxkcuh"
+    },
+    {
+      "id": "7308",
+      "full": "'ihou;giyfltudkrysjt",
+      "email": ";jihou;@gmail.com",
+      "phone": "345678",
+      "message": "'pio;ugylftkdrjtkughoijpk["
+    },
+    {
+      "id": "e51d",
+      "full": "Ndahiro",
+      "email": "ndahiroloicke@gmail.com",
+      "phone": "0788811534",
+      "message": "iu';giyfltukj[.,miu.g,PO>,gmf o{I?U.o,gmfnb/oui.g,mn"
+    },
+    {
+      "id": "8933",
+      "full": "Ndahiro",
+      "email": "ndahiroloicke@gmail.com",
+      "phone": "0788811534",
+      "message": "iu';giyfltukj[.,miu.g,PO>,gmf o{I?U.o,gmfnb/oui.g,mn"
+    },
+    {
+      "id": "515b",
+      "full": "david goggins",
+      "email": "davidgoggins@gmail.com",
+      "phone": "0788811534",
+      "message": "hey there i think your service is greate especially for fat people"
+    },
+    {
+      "id": "c260",
+      "full": "david goggins",
+      "email": "davidgoggins@gmail.com",
+      "phone": "0788811534",
+      "message": "hey there i think your service is greate especially for fat people"
     }
   ]
 }
