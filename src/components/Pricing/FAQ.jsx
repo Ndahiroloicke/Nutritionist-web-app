@@ -1,5 +1,6 @@
 import Question from "./question";
 import petals from "../../assets/petals-removebg-preview.png"
+import { Link } from "react-router-dom";
 
 const FAQ = () => {
   return (
@@ -57,7 +58,7 @@ Yes, our meal plans and recipes cater to vegetarians and vegans, offering delici
             <img src={petals} alt="" className="w-[150px] h-[110px] mt-[60px] mx-[135px] mb-[50px]" />
             <h1 className="text-[26px] font-semibold ml-[110px] mb-[12px]">Ask Your Question</h1>
             <p className="font-medium ml-[70px]">feel free to ask any question on anytime</p>
-            <button className="bg-[#CBEA7B] mx-[139px] mt-[20px] font-semibold px-[20px] py-[14px] text-[14px] rounded-[6px;]">Ask A Question</button>
+            <Link to="/contactus"><button className="bg-[#CBEA7B] mx-[139px] mt-[20px] font-semibold px-[20px] py-[14px] text-[14px] rounded-[6px;]">Ask A Question</button></Link>
         </div>
       </div>
     </div>

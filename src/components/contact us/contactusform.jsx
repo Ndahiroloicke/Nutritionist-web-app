@@ -77,9 +77,9 @@ const Contactusform = () => {
           className="w-[569px] mr-[20px] -mt-[8px] rounded-[5px] h-[431px]"
         />
         <div className="flex flex-row pl-[385px] pt-[20px]">
-          <img src={butt2} alt="" className="mr-[14px] w-[52px]" />
-          <img src={butt3} alt="" className="mr-[14px] w-[52px]" />
-          <img src={butt1} alt="" className=" w-[52px]" />
+          <a href="https://www.facebook.com/"><img src={butt2} alt="" className="mr-[14px] w-[52px]" /></a>
+          <a href="twitter.com"><img src={butt3} alt="" className="mr-[14px] w-[52px]" /></a>
+          <a href="https://www.instagram.com/ndahiro__1/"></a><img src={butt1} alt="" className=" w-[52px]" />
         </div>
       </div>
     </div>
