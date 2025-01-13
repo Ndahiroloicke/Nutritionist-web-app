@@ -29,7 +29,8 @@ const ProcessHome = () => {
         h="Your Journey to Health and Wellness"
         p='At Nutritionist, we believe in providing a personalized and comprehensive approach to help you achieve your health and wellness goals. Our "How it Works" process is designed to guide you through each step of your journey, ensuring that you receive the support, knowledge, and tools you need to succeed. Here is a detailed breakdown of our process:'
       />
-      <div className="flex flex-row">
+      <div className="w-full">
+        <div className="w-fit mx-auto flex flex-row">
         <div className="ml-[70px]">
       <Explan
         number="01"
@@ -84,6 +85,7 @@ const ProcessHome = () => {
         img={icon1}
         heade="Sustainable Lifestyle Habits"
         parm="Our ultimate goal is to help you develop sustainable lifestyle habits that will support your long-term health and wellness. We will equip you with the knowledge and skills to maintain your progress even after you've completed the program."/>
+      </div>
       </div>
       </div>
       <Proud/>

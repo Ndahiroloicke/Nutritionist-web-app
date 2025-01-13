@@ -8,7 +8,7 @@ const Pri = ({prides,img1,img2,img3}) => {
             <p className="w-[320px]">{prides}</p>
             <img src={img1} alt="" className="w-[32px]"/>
             <img src={img2} alt=""  className=" w-[32px]"/>
-            <img src={img3} alt=""  className="w-[32px] mr-[20px]"/>
+            <img src={img3} alt=""  className="w-[32px] mr-[56px]"/>
         </div>
     </div>
   )

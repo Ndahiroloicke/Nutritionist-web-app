@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const FAQ = () => {
   return (
     <div>
-      <div className="mx-[80px] mt-[100px] mb-[60px]">
-        <h1 className="text-[38px] font-bold ml-[600px]">FAQ</h1>
-        <p className="ml-[250px] mt-[6px]">
+      <div className=" w-full mt-[100px] mb-[60px]">
+        <h1 className="text-[38px] w-fit mx-auto font-bold">FAQ</h1>
+        <p className="w-fit mx-auto mt-[6px]">
           We address commonly asked questions and provide comprehensive answers
           to help you navigate your way <span className="block ml-[250px]"> through your nutrition and wellness
           journey.

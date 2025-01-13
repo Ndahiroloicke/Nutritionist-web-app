@@ -28,7 +28,9 @@ function Servicehome() {
       <Uppertab />
       <Navbar />
       <div className="flex flex-row mt-[40px] ml-[25px]">
-        <div className="flex flex-row ml-[50px]">
+        <div className="w-full">
+        <div className="w-fit mx-auto flex flex-row">
+        <div className="flex flex-row ">
           <div>
             <Single />
             <Single />
@@ -56,9 +58,12 @@ function Servicehome() {
             <Single />
           </div>
         </div>
+        </div>
+        </div>
       </div>
       <Longtext />
-      <div className="ml-[240px]">
+      <div className="w-full">
+        <div className="w-fit mx-auto">
         <h1 className="m-[30px] pl-[350px] text-3xl font-semibold">
           Our Story
         </h1>
@@ -69,7 +74,10 @@ function Servicehome() {
             nutritionists are here to guide you on your weight loss journey.
           </span>
         </p>
+        </div>
       </div>
+        <div className="w-full">
+          <div className="w-fit mx-auto">
       <Leftside
         storyt="Inspiring Transformations Story"
         pic={pic1}
@@ -130,6 +138,8 @@ function Servicehome() {
         date="January 1, 2010"
         longp="On this day, Nutritionist was born with the vision of helping individuals achieve their weight loss and health goals through personalized nutrition coaching. The founder, Sarah Mitchell, recognized the need for a sustainable and effective approach to healthy living, and thus began the journey of Nutritionist."
       />
+      </div>
+      </div>
       <Achievments/>
       <Proud/>
       <Foot/>

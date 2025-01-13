@@ -1,22 +1,32 @@
-import PropTypes from 'prop-types';
-const Homepic = ({abs,cont,h,p,cla}) => {
+import PropTypes from "prop-types";
+const Homepic = ({ abs, cont, h, p, cla }) => {
   return (
-    <div>
-        <div className="bg-[#F6FBE9] ml-[100px] mr-[90px] rounded-t-xl mt-[100px]">
-        <img src={abs} alt=""  className='w-[643px] h-[326px] ml-[275px]'/>
-                <img src={cont} alt=""  className='absolute top-[350px] left-[670px]'/>
-                <h1 className={cla}>{h}</h1>
-                <p className='ml-[80px] mr-[80px] pb-[50px]'>{p}</p>
-                </div>
+    <div className="px-[100px]">
+      <div className="bg-[#F6FBE9] rounded-t-xl mt-[100px] w-full">
+        <div className="w-fit mx-auto">
+          <img src={abs} alt="" className="w-[643px] h-[326px] " />
+          <img
+            src={cont}
+            alt=""
+            className=" relative -top-56 left-72"
+          />
+          </div>
+          <div className="w-fit mx-auto">
+          <h1 className="text-[30px] font-bold mb-7">{h}</h1>
+          </div>
+          <div className="w-fit mx-auto">
+          <p className="ml-[80px] mr-[80px] pb-[50px]">{p}</p>
+          </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 Homepic.propTypes = {
-    abs: PropTypes.string.isRequired,
-    cont: PropTypes.string.isRequired,
-    h: PropTypes.string.isRequired,
-    p: PropTypes.string.isRequired,
-    cla: PropTypes.string.isRequired
-  };
+  abs: PropTypes.string.isRequired,
+  cont: PropTypes.string.isRequired,
+  h: PropTypes.string.isRequired,
+  p: PropTypes.string.isRequired,
+  cla: PropTypes.string.isRequired,
+};
 
-export default Homepic
+export default Homepic;
