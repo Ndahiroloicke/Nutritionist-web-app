@@ -12,7 +12,7 @@ const Feature = () => {
         </p>
       </div>
       <div className="w-full">
-        <div className="flex flex-row space-x-14 w-fit mx-auto">
+        <div className="flex flex-col sm:flex-row space-x-14 w-fit mx-auto">
         <div className="">
           <Trinity />
         </div>

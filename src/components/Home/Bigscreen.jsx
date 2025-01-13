@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Bigscreen = () => {
   return (
-    <div className="Bigscreen flex flex-col md:flex-row">
+    <div className="Bigscreen flex flex-col justify-between md:flex-row">
       <div className="big-pic">
         <img src={grids} alt="" className="hidden md:block md:w-[650px]"/>
         <img src={bigpic} alt="" className="woman absolute top-[115px] -left-[200px] w-[1000px] hidden md:block" />

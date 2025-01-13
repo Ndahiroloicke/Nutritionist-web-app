@@ -46,7 +46,7 @@ const Expnav = ({
   };
 
   return (
-    <div>
+    <div className="px-[100px]">
       <div className="flex flex-row px-[50px] py-[20px] bg-[#234338] justify-between items-center text-[#E6E6E6] rounded-b-xl">
         <li
           className={state.management ? "list-none bg-[#2C5446] px-[20px] py-[16px] rounded-lg" : "list-none"}

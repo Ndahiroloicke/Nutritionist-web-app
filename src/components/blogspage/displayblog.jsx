@@ -9,8 +9,8 @@ const Displayblog = ({blog}) => {
 
   return (
     <div>
-      <div className="flex flex-row justify-between mt-[100px] mb-[200px] mx-[102px]">
-        <div className="grid grid-cols-2 gap-y-2 gap-x-3">
+      <div className="flex flex-row justify-between mt-[100px] w-full mb-[200px]">
+        <div className="grid grid-cols-2 gap-y-2 w-fit mx-auto gap-x-3">
           {blog.map((item) => {
             return (
               <div key={item.num}>

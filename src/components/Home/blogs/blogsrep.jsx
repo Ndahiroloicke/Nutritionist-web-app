@@ -23,7 +23,7 @@ function Blogsforhome() {
       </div>
       <div className="w-full">
         <div className="w-fit mx-auto space-y-14">
-        <div className="flex flex-row space-x-16">
+        <div className="flex flex-col sm:flex-row  space-x-16">
           <Firstblogs
             blogtitle="Weight Loss"
             homl="Discover how staying hydrated can support your weight loss goals and improve overall health."
@@ -39,7 +39,7 @@ function Blogsforhome() {
             homep="Carbohydrates, Proteins, and Fats"
           />
         </div>
-        <div className="flex flex-row space-x-14">
+        <div className="flex sm:flex-row flex-col space-x-14">
           <Firstblogs
             blogtitle="Mindful Eating"
             homl="Learn how practicing mindful eating can help you develop a healthier relationship with food and improve your overall well-being."
