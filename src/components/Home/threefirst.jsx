@@ -3,7 +3,7 @@ import divine2 from "../../assets/95ad6b91-98e3-4b79-882e-111eaaeca1ca.png";
 import divine3 from "../../assets/ccefa74f-1337-4b61-b25b-aef4826c67fe.png";
 function Trinity() {
   return (
-    <div className="flex flex-col gap-7 my-8 px-3">
+    <div className="flex flex-col space-y-14 my-8 px-3">
       <div className="first-feature max-w-[630px] sm:h-[250px] h-[250px]  bg-[#F6FBE9]">
         <div>
           <div className="pic-and-h">

@@ -11,12 +11,14 @@ const Feature = () => {
           destination for all things nutrition and wellness.
         </p>
       </div>
-      <div className="features mx-11">
-        <div className="three-1-components">
+      <div className="w-full">
+        <div className="flex flex-row space-x-14 w-fit mx-auto">
+        <div className="">
           <Trinity />
         </div>
-        <div className="three-2-components">
+        <div className="">
           <Tritity />
+        </div>
         </div>
       </div>
     </div>

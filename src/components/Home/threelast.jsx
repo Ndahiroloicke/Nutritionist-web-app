@@ -3,7 +3,7 @@ import divine5 from "../../assets/7bbcb7b6-0617-4e41-9438-7a409c6e2ad4.png";
 import divine3 from "../../assets/2f741a03-f576-45c3-a840-9745fe0db12d.png";
 function Tritity() {
   return (
-    <div className="flex flex-col gap-7 my-8 px-3">
+    <div className="flex flex-col space-y-14 my-8 px-3">
       <div className="last-feature max-w-[630px] h-[250px] bg-[#F6FBE9]">
         <div className="pic-and-t ">
           <img src={divine4} alt="" />
