@@ -3,7 +3,7 @@ function Single() {
   return (
     <div>
         <div>
-            <img src={img} alt="" className="h-[180px] mb-[9px] mr-[13px] rounded-lg"/>
+            <img src={img} alt="" className="sm:h-[180px] w-[390px] mr-2 sm:mb-[9px] sm:mr-[13px] rounded-lg"/>
         </div>
     </div>
   )

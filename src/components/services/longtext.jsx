@@ -1,9 +1,9 @@
 const Longtext = () => {
   return (
     <div>
-        <div className="m-[100px] bg-[#F6FBE9] rounded-2xl">
-      <h1 className="ml-[450px] -mb-[20px] pt-[20px] text-3xl font-semibold">Welcome to Nutritionist</h1>
-      <p className="p-[70px]">
+        <div className="bg-[#F6FBE9] px-[40px] space-y-14 mt-16 sm:mt-36 py-10 mx-3 rounded-2xl">
+      <h1 className=" w-fit mx-auto text-3xl font-semibold">Welcome to Nutritionist</h1>
+      <p className="">
         Your trusted source for personalized nutrition coaching. Our mission is
         to help you achieve your weight loss and health goals through tailored
         nutrition plans and expert guidance. We understand that every individual

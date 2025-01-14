@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 const Ach = ({ pic, achievst, paragraph }) => {
   return (
-    <div className="bg-[#F6FBE9] m-[20px] -ml-[1px] rounded-3xl w-[630px]">
+    <div className="bg-[#F6FBE9] m-[20px] -ml-[1px] rounded-3xl sm:w-[630px]">
       <div className="flex flex-row items-center pt-[40px] pl-[50px] mb-[20px]">
         <img
           src={pic}

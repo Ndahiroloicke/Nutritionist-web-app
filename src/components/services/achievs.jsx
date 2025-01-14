@@ -8,22 +8,22 @@ const Achievments = () => {
   return (
     <div>
       <div className="w-full mt-48">
-        <div className="w-fit mx-auto">
-          <h1 className="text-3xl font-semibold ml-[250px]">
+        <div className="w-fit sm:mx-auto">
+          <h1 className="text-3xl w-fit mx-auto font-semibold sm:ml-[250px]">
             Company Achievements
           </h1>
-          <p className="">
+          <p className=" w-fit mx-12">
             At Nutritionist, we take pride in our accomplishments and the
             positive impact we have made on the lives of our clients.
-            <span className="block ml-[270px]">
+            <span className="w-fit mx-auto sm:ml-[270px]">
               {" "}
               Here are some of our notable achievements{" "}
             </span>
           </p>
         </div>
       </div>
-      <div className="flex flex-row w-full mt-8">
-        <div className="w-fit mx-auto flex flex-row">
+      <div className="flex sm:flex-row w-full mt-8">
+        <div className="w-fit mx-auto flex flex-col sm:flex-row">
         <div>
           <Ach
             pic={divine}

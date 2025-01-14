@@ -52,7 +52,7 @@ const Navbar = () => {
         <img src={menu} alt="Menu" />
       </div>
       {isClicked && (
-        <div className="absolute top-[70px] right-0 bg-[#1A3129] w-full text-white flex flex-col gap-[15px] px-[20px] py-[20px] sm:hidden z-50">
+        <div className="absolute top-[95px] right-0 bg-[#1A3129] w-full text-white flex flex-col gap-[15px] px-[20px] py-[20px] sm:hidden z-50">
           <ul className="flex flex-col gap-[10px]">
             <li>
               <Link to="/">Home</Link>

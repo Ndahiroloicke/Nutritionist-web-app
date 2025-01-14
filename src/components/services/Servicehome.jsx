@@ -27,9 +27,9 @@ function Servicehome() {
     <div className="z-[5]">
       <Uppertab />
       <Navbar />
-      <div className="flex flex-row mt-[40px] ml-[25px]">
+      <div className="flex flex-row mt-[40px] px-3 sm:ml-[25px]">
         <div className="w-full">
-        <div className="w-fit mx-auto flex flex-row">
+        <div className="w-fit sm:mx-auto flex flex-row">
         <div className="flex flex-row ">
           <div>
             <Single />
@@ -44,11 +44,11 @@ function Servicehome() {
           <img
             src={realgrids}
             alt=""
-            className="h-[370px] w-[500px] rounded-lg"
+            className="sm:h-[370px] sm:w-[500px] rounded-lg"
           />
-          <img src={pic} alt="" className="h-[380px]  -mt-[380px] ml-[50px]" />
+          <img src={pic} alt="" className="sm:h-[380px] w-[200px] -mt-48  sm:-mt-[380px] sm:ml-[50px]" />
         </div>
-        <div className="flex flex-row ml-[12px]">
+        <div className="flex flex-row sm:ml-[12px]">
           <div>
             <Single />
             <Single />
@@ -63,21 +63,21 @@ function Servicehome() {
       </div>
       <Longtext />
       <div className="w-full">
-        <div className="w-fit mx-auto">
-        <h1 className="m-[30px] pl-[350px] text-3xl font-semibold">
+        <div className="w-fit mx-auto my-10">
+        <h1 className="sm:m-[30px] w-fit mx-auto sm:pl-[350px] text-3xl font-semibold">
           Our Story
         </h1>
-        <p>
+        <p className="w-fit mx-12">
           Welcome to Nutritionist, your partner in achieving optimal health
           through personalized nutrition coaching. Our certified{" "}
-          <span className="block ml-[150px] mb-[30px]">
+          <span className="w-fit mx-auto sm:ml-[150px] mb-[30px]">
             nutritionists are here to guide you on your weight loss journey.
           </span>
         </p>
         </div>
       </div>
         <div className="w-full">
-          <div className="w-fit mx-auto">
+          <div className="w-fit hidden sm:block sm:mx-auto">
       <Leftside
         storyt="Inspiring Transformations Story"
         pic={pic1}
@@ -137,6 +137,38 @@ function Servicehome() {
         pic={pi5}
         date="January 1, 2010"
         longp="On this day, Nutritionist was born with the vision of helping individuals achieve their weight loss and health goals through personalized nutrition coaching. The founder, Sarah Mitchell, recognized the need for a sustainable and effective approach to healthy living, and thus began the journey of Nutritionist."
+      />
+      </div>
+      <div className="block w-fit space-y-6 mx-auto sm:hidden">
+      <Leftside
+        storyt="Inspiring Transformations Story"
+        pic={pic1}
+        date="July 1,2025"
+        longp="Nutritionist continues to empower individuals to transform their lives through personalized nutrition coaching. With an expanding client base and a growing team of experts, we remain committed to our goal of helping people lose weight, improve their health, and lead happier, more fulfilling lives. Our journey of inspiring transformations continues, one client at a time."
+      />
+      <Leftside
+        storyt="Research and Expertise Story"
+        pic={pic3}
+        date="March 15, 2012"
+        longp="After extensive research and collaborating with nutrition experts, Sarah Mitchell and her team developed a comprehensive program rooted in scientific knowledge and evidence-based strategies. This milestone marked the establishment of Nutritionist as a trusted source of personalized nutrition coaching."
+      />
+      <Leftside
+        storyt="Celebrating Success Stories"
+        pic={pic4}
+        date="September 5, 2015"
+        longp="Nutritionist celebrated its 500th client success story. These stories showcased the positive impact of personalized nutrition coaching on individuals' lives, further motivating our team to continue providing exceptional services."
+      />
+       <Leftside
+        storyt="Enhanced Support Story"
+        pic={pic2}
+        date="April 1, 2018"
+        longp="In response to the growing demand for personalized nutrition coaching, Nutritionist expanded its team of qualified nutritionists and dietitians. This milestone enabled us to provide even more individualized care and support to our clients."
+      />
+      <Leftside
+        storyt="Continued Growth Story"
+        pic={pic5}
+        date="November 2, 2021"
+        longp="Nutritionist celebrated serving over 5,000 clients, a testament to our commitment to helping individuals achieve their health and weight loss goals. This milestone highlighted the positive impact we have made on the lives of thousands of people."
       />
       </div>
       </div>

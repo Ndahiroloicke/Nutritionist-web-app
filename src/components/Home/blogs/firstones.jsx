@@ -10,14 +10,15 @@ const Firstblogs = ({ blogtitle, homepic, profile, homep, homl, nam }) => {
   };
 
   return (
-    <div className=" w-[330px] sm:w-[630px] bg-[#F6FBE9] py-8 mb-[20px] rounded-[10px] sm:p-[30px]">
+    <div className="sm:w-[630px] bg-[#F6FBE9] py-8 mb-[20px] rounded-[10px] sm:p-[30px]">
 
+     
+      <div className="mx-6">
       <img
         src={homepic}
-        className="bg-cover rounded-[12px] sm:h-[377px] w-fit mx-auto h-[177px]"
+        className="w-full rounded-[12px] sm:h-[377px] "
         alt="Blog Thumbnail"
       />
-      <div className="mx-6">
         <div className="">
           <p className="text-[16px] mt-[40px] mb-[2px]">{blogtitle}</p>
           <h3 className="font-semibold text-[22px] mb-[20px]">{homep}</h3>
