@@ -7,22 +7,22 @@ function Foot() {
         <Navbar />
 
       </div>
-      <div className="lowerfoot">
-        <div>
-          <li>
-            <i className="bx bxs-envelope"></i>
+      <div className="w-full space-y-4 text-white">
+        <div className="flex border-2 px-32 py-4 mx-8 border-[#2C5446] flex-row space-x-5 items-center">
+          <li className="list-none">
+            <i className="bx text-[#CBEA7B] text-4xl   bxs-envelope"></i>
           </li>
           <p>ndahiroloicke@gmail.com</p>
         </div>
-        <div>
-          <li>
-            <i className="bx bxs-phone"></i>
+        <div className="flex border-2 border-[#2C5446] px-32 mx-8 py-4 space-x-5 items-center flex-row">
+          <li className="list-none">
+            <i className="bx text-[#CBEA7B] text-4xl bxs-phone"></i>
           </li>
           <p>+123-456-789</p>
         </div>
-        <div>
-          <li>
-            <i className="bx bx-current-location"></i>
+        <div className="flex mx-8 py-4 px-32 border-2 border-[#2C5446] space-x-5 items-center flex-row">
+          <li className="list-none">
+            <i className="bx text-[#CBEA7B] text-4xl bx-current-location"></i>
           </li>
           <p>Somewhere in the World</p>
         </div>
