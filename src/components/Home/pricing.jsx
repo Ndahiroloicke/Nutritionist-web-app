@@ -27,12 +27,11 @@ function Price() {
         />
       </div>
       {yearlyPricing ? (
-        <div className="flex space-y-5 flex-wrap justify-center mt-[40px] sm:mx-0 mx-3">
+        <div className="flex space-y-5 sm:flex-row flex-col items-center justify-center mt-[40px] sm:mx-0 mx-3">
           <Plans
             plandescription="Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.personalized recipe recommendations "
             planname="Basic Plan"
             price="$199"
-            className=""
           />
           <Plans
             planname="Premium Plan"
@@ -46,12 +45,11 @@ function Price() {
           />
         </div>
       ) : (
-        <div className="flex space-y-5 flex-wrap justify-center mt-[40px] sm:mx-0 mx-3">
+        <div className="flex space-y-5 flex-col items-center sm:flex-row justify-center mt-[40px] sm:mx-0 mx-3">
           <Plans
             plandescription="Get started on your health journey with our Basic Plan. It includes personalized nutrition coaching, access to our app, meal planning assistance, and email support.personalized recipe recommendations "
             planname="Basic Plan"
             price="$49"
-            className=""
           />
           <Plans
             planname="Premium Plan"

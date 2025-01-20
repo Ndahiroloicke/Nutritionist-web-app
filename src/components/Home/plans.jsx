@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Plans = ({ planname, plandescription, price }) => {
   return (
-    <div className="plan-whole w-full px-6 py-4 mx-2">
+    <div className="plan-whole h-[414px] w-full px-6 py-4 mx-2">
       <div className="plan-head w-fit mx-auto">
         <h1 className="text-[30px] font-semibold">{planname}</h1>
         <p>Up to 50% off Yearly plan</p>
