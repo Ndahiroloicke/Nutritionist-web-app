@@ -12,7 +12,7 @@ const Homepic = ({ abs, cont, h, p, cla }) => {
           />
           </div>
           <div className="w-full">
-          <h1 className="text-[30px] w-80 sm:w-fit mx-auto font-bold mb-7">{h}</h1>
+          <h1 className="text-[30px] mx-auto sm:w-fit w-fit font-bold mb-7">{h}</h1>
           </div>
           <div className="w-96 sm:w-full mx-auto">
           <p className="">{p}</p>

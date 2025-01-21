@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Blogsample = ({ blogh, desch, ph, pic, cla, db }) => {
   return (
     <div>
-      <div className={cla}>
+      <div className={`${cla} px-4 w-fit`}>
         <h1 className="pt-[40px] font-semibold text-[22px] pb-[8px]">
           {blogh}
         </h1>
@@ -12,9 +12,9 @@ const Blogsample = ({ blogh, desch, ph, pic, cla, db }) => {
         <img
           src={pic}
           alt=""
-          className=" mt-[50px] ml-[100px] w-[393px] h-[189px]"
+          className=" mt-[50px] ml-[100px]   w-[393px] h-[189px]"
         />
-        <div className="bg-[#808080] w-[493px] h-[0.5px]"></div>
+        <div className="bg-[#808080] sm:w-[493px] h-[0.5px]"></div>
         <div className="flex flex-row">
           <div>
             <h1 className="w-[427px] h-[60px] font-semibold text-[20px] mb-[8px] mt-[40px]">
