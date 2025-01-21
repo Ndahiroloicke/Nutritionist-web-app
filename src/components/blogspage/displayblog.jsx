@@ -4,7 +4,7 @@ import mist from "../../assets/Spin@1x-1.0s-200px-200px.svg"
 
 const Displayblog = ({blog}) => {
     if (!blog) {
-    return <div><img src={mist} className="ml-[650px] mb-[1000px] mt-[50px] h-[50px] " /></div>; // Render a loading indicator or any appropriate message while waiting for data
+    return <div><img src={mist} className="sm:mx-auto sm:my-60 sm:h-48 h-[50px] " /></div>; // Render a loading indicator or any appropriate message while waiting for data
   }
 
   return (
