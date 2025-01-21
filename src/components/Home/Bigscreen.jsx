@@ -20,12 +20,12 @@ const Bigscreen = () => {
         />
         <img src={phonp} alt="" className="block w-[100%] md:hidden" />
       </div>
-      <div className="sm:hidden block">
+      <div className="sm:hidden mx-auto block">
         <img
           src={cust}
           className="sm:w-fit sm:mx-auto w-[150px] relative sm:block -mt-[45px] z-10 sm:h-[40px]"
           alt=""
-        />
+        /> 
         <p className="mx-[10px] text-2xl sm:text-lg font-semibold sm:flex sm:flex-row  my-[8px]">
           <span className="text-[#468671] font-bold">430+</span><p> Happy customers</p>
         </p>
