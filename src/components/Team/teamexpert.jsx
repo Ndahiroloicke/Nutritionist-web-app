@@ -21,7 +21,7 @@ const Teamexp = ({ employee }) => {
   }
 
   return (
-    <div className="">
+    <div className="px-4">
       <Homepic
         abs={abs}
         cont={cont}
