@@ -6,7 +6,7 @@ import Teamexp from "./teamexpert";
 import usefetch from "../blogspage/usefetch";
 
 const Teamhome = () => {
-  const { data, loading } = usefetch("http://localhost:7000/Employees");
+  const { data, loading } = usefetch("https://nutritionist-jase.onrender.com/Employees");
 
   if (loading || !data) {
     return <div>loading....</div>;

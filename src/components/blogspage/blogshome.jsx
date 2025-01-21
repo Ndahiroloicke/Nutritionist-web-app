@@ -12,7 +12,7 @@ import usefetch from "./usefetch";
 
 
 const Blogshome = () => {
-  const {data:items} = usefetch("http://localhost:7000/blogs");
+  const {data:items} = usefetch("https://nutritionist-jase.onrender.com/blogs");
   const [menuitems, setmenuitems] = useState(items);
 
   function filterItems({id,category}) {
