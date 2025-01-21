@@ -19,6 +19,7 @@ import pi5 from "../../assets/write.png";
 import Achievments from "./achievs";
 import Proud from "./proud";
 import Foot from "../Home/footer";
+import grids from '../../assets/bigones.png';
 
 // import Navbar from "../Home/Navbar";
 
@@ -27,8 +28,11 @@ function Servicehome() {
     <div className="z-[5]">
       <Uppertab />
       <Navbar />
-      <div className="flex flex-row mt-[40px] px-3 sm:ml-[25px]">
-        <div className="w-full">
+      <div className="flex flex-row mt-[40px] px-3">
+        <div>
+          <img src={grids} className="" alt="" />
+        </div>
+        <div className="w-full sm:hidden">
         <div className="w-fit sm:mx-auto flex flex-row">
         <div className="flex flex-row ">
           <div>
@@ -63,14 +67,14 @@ function Servicehome() {
       </div>
       <Longtext />
       <div className="w-full">
-        <div className="w-fit mx-auto my-10">
-        <h1 className="sm:m-[30px] w-fit mx-auto sm:pl-[350px] text-3xl font-semibold">
+        <div className="w-fit mx-auto sm:my-20 my-10">
+        <h1 className="sm:mx-auto w-fit mx-auto text-3xl font-semibold">
           Our Story
         </h1>
         <p className="w-fit mx-12">
           Welcome to Nutritionist, your partner in achieving optimal health
           through personalized nutrition coaching. Our certified{" "}
-          <span className="w-fit mx-auto sm:ml-[150px] mb-[30px]">
+          <span className="w-fit mx-auto mb-[30px]">
             nutritionists are here to guide you on your weight loss journey.
           </span>
         </p>

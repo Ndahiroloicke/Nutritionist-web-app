@@ -1,9 +1,9 @@
 import PropTypes from "prop-types";
 const Reftside = ({ storyt, longp, date, pic }) => {
   return (
-    <div className="flex flex-col sm:flex-row sm:-mt-[48px] sm:ml-[85px]">
+    <div className="flex flex-col sm:flex-row sm:ml-[85px]">
       <div className="pt-[70px] bg-[#F6FBE9] sm:pr-[20px] rounded-l-xl">
-        <h1 className="ml-[30px] font-semibold text-xl">{storyt}</h1>
+        <h1 className="ml-[30px] font-semibold text-xl sm:text-2xl">{storyt}</h1>
         <div className="bg-[#CBEA7B] sm:w-[290px] h-[4px] ml-[30px] rounded-lg mb-[40px]"></div>
         <p className="w-[570px] ml-[30px] mb-[30px] ">{longp}</p>
         <p className="ml-[30px]">{date}</p>

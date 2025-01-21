@@ -8,14 +8,14 @@ const Achievments = () => {
   return (
     <div>
       <div className="w-full mt-48">
-        <div className="w-fit sm:mx-auto">
-          <h1 className="text-3xl w-fit mx-auto font-semibold sm:ml-[250px]">
+        <div className="w-fit sm:mb-10 sm:mx-auto">
+          <h1 className="text-3xl w-fit mx-auto font-semibold sm:mx-auto">
             Company Achievements
           </h1>
-          <p className=" w-fit mx-12">
+          <p className="w-fit mx-12">
             At Nutritionist, we take pride in our accomplishments and the
             positive impact we have made on the lives of our clients.
-            <span className="w-fit mx-auto sm:ml-[270px]">
+            <span className="w-fit mx-auto">
               {" "}
               Here are some of our notable achievements{" "}
             </span>
