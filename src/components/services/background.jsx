@@ -1,4 +1,4 @@
-import img from "../../assets/real grids.png"
+import img from "../../../public/assets/real grids.png"
 function Single() {
   return (
     <div>

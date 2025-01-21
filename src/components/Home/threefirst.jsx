@@ -1,6 +1,6 @@
-import divine from "../../assets/f3c816c2-63bc-42e8-9009-85beea00a940.png";
-import divine2 from "../../assets/95ad6b91-98e3-4b79-882e-111eaaeca1ca.png";
-import divine3 from "../../assets/ccefa74f-1337-4b61-b25b-aef4826c67fe.png";
+import divine from "../../../public/assets/f3c816c2-63bc-42e8-9009-85beea00a940.png";
+import divine2 from "../../../public/assets/95ad6b91-98e3-4b79-882e-111eaaeca1ca.png";
+import divine3 from "../../../public/assets/ccefa74f-1337-4b61-b25b-aef4826c67fe.png";
 function Trinity() {
   return (
     <div className="flex flex-col space-y-14 my-8 px-3">

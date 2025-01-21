@@ -1,25 +1,25 @@
 import Navbar from "../Home/Navbar";
 import Uppertab from "../Home/Uppertab";
-import realgrids from "../../assets/real grids.png";
+import realgrids from "../../../public/assets/real grids.png";
 import Single from "./background";
-import pic from "../../assets/nutritionistlogo-removebg.png";
+import pic from "../../../public/assets/nutritionistlogo-removebg.png";
 import Longtext from "./longtext";
 import Leftside from "./leftside";
 import Reftside from "./rightside";
-import pic1 from "../../assets/fat woman.png";
-import pic2 from "../../assets/Ballons.png";
-import pic3 from "../../assets/apples.png";
-import pic4 from "../../assets/green guys.png";
-import pic5 from "../../assets/soil.png";
-import pi1 from "../../assets/trophy.png";
-import pi2 from "../../assets/3women.png";
-import pi3 from "../../assets/laptop.png";
-import pi4 from "../../assets/foot.png";
-import pi5 from "../../assets/write.png";
+import pic1 from "../../../public/assets/fat woman.png";
+import pic2 from "../../../public/assets/Ballons.png";
+import pic3 from "../../../public/assets/apples.png";
+import pic4 from "../../../public/assets/green guys.png";
+import pic5 from "../../../public/assets/soil.png";
+import pi1 from "../../../public/assets/trophy.png";
+import pi2 from "../../../public/assets/3women.png";
+import pi3 from "../../../public/assets/laptop.png";
+import pi4 from "../../../public/assets/foot.png";
+import pi5 from "../../../public/assets/write.png";
 import Achievments from "./achievs";
 import Proud from "./proud";
 import Foot from "../Home/footer";
-import grids from '../../assets/bigones.png';
+import grids from '../../../public/assets/bigones.png';
 
 // import Navbar from "../Home/Navbar";
 

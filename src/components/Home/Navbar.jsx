@@ -1,6 +1,6 @@
-import headpic from "../../assets/nutritionist.png";
+import headpic from "../../../public/assets/nutritionist.png";
 import { Link } from "react-router-dom";
-import menu from "../../assets/menu.png";
+import menu from "../../../public/assets/menu.png";
 import { useState } from "react";
 
 const Navbar = () => {

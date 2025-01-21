@@ -1,7 +1,7 @@
 import Uppertab from "../Home/Uppertab";
 import Navbar from "../Home/Navbar";
-import abs from "../../assets/Abstract Design.png";
-import cont from "../../assets/Container.png";
+import abs from "../../../public/assets/Abstract Design.png";
+import cont from "../../../public/assets/Container.png";
 import Homepic from "../Team/homepic";
 import Expnav from "../Team/expnav";
 import Foot from "../Home/footer";

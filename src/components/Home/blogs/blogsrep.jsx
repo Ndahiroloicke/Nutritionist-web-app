@@ -1,12 +1,12 @@
 import Firstblogs from "./firstones";
-import pic1 from "../../../assets/da7b7dc064c61db0c062ccbdaaf8177952c7a231.png";
-import pic2 from "../../../assets/b9d2d8f38a133804e03e331970e5f4b5ac921d09.png";
-import pic3 from "../../../assets/9587cb83576a655766715dbeea15fd66e6cb0e44.png";
-import pic4 from "../../../assets/331b06a3fc603b2f87b51bb0fa1cc770057631b0.png";
-import pic from "../../../assets/Emily-1.png";
-import em from "../../../assets/Emily-2.png";
-import em3 from "../../../assets/mark.png";
-import em2 from "../../../assets/Sarah-1.png";
+import pic1 from "../../../../public/assets/da7b7dc064c61db0c062ccbdaaf8177952c7a231.png";
+import pic2 from "../../../../public/assets/b9d2d8f38a133804e03e331970e5f4b5ac921d09.png";
+import pic3 from "../../../../public/assets/9587cb83576a655766715dbeea15fd66e6cb0e44.png";
+import pic4 from "../../../../public/assets/331b06a3fc603b2f87b51bb0fa1cc770057631b0.png";
+import pic from "../../../../public/assets/Emily-1.png";
+import em from "../../../../public/assets/Emily-2.png";
+import em3 from "../../../../public/assets/mark.png";
+import em2 from "../../../../public/assets/Sarah-1.png";
 
 function Blogsforhome() {
   return (

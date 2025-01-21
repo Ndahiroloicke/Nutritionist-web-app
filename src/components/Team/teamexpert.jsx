@@ -1,6 +1,6 @@
 import Expnav from "./expnav";
-import abs from "../../assets/Abstract Design.png";
-import cont from "../../assets/Container.png";
+import abs from "../../../public/assets/Abstract Design.png";
+import cont from "../../../public/assets/Container.png";
 import Expert from "./Expert";
 import Homepic from "./homepic";
 import PropTypes from "prop-types";

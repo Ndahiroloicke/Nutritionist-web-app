@@ -1,8 +1,8 @@
 import Ach from "./achievscomp";
-import divine from "../../assets/f3c816c2-63bc-42e8-9009-85beea00a940.png";
-import divine2 from "../../assets/95ad6b91-98e3-4b79-882e-111eaaeca1ca.png";
-import divine4 from "../../assets/50c1ae4b-9868-449b-80ff-5243bceb8419.png";
-import divine5 from "../../assets/7bbcb7b6-0617-4e41-9438-7a409c6e2ad4.png";
+import divine from "../../../public/assets/f3c816c2-63bc-42e8-9009-85beea00a940.png";
+import divine2 from "../../../public/assets/95ad6b91-98e3-4b79-882e-111eaaeca1ca.png";
+import divine4 from "../../../public/assets/50c1ae4b-9868-449b-80ff-5243bceb8419.png";
+import divine5 from "../../../public/assets/7bbcb7b6-0617-4e41-9438-7a409c6e2ad4.png";
 
 const Achievments = () => {
   return (

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Qadd from "../../assets/Qadd.png";
-import Qcross from "../../assets/Qcross.png";
+import Qadd from "../../../public/assets/Qadd.png";
+import Qcross from "../../../public/assets/Qcross.png";
 import Proptypes from "prop-types"
 
 const Question = ({Qt,longp}) => {

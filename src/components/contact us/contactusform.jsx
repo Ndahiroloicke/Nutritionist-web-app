@@ -1,7 +1,7 @@
-import map from "../../assets/map.png";
-import butt1 from "../../assets/Button.png";
-import butt2 from "../../assets/Button-2.png";
-import butt3 from "../../assets/Button-3.png";
+import map from "../../../public/assets/map.png";
+import butt1 from "../../../public/assets/Button.png";
+import butt2 from "../../../public/assets/Button-2.png";
+import butt3 from "../../../public/assets/Button-3.png";
 import { useState } from "react";
 const Contactusform = () => {
   const [full,setfull] = useState("")

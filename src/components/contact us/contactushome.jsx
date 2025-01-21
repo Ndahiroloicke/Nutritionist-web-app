@@ -1,8 +1,8 @@
 import Uppertab from '../Home/Uppertab'
 import Navbar from '../Home/Navbar'
 import Homepic from '../Team/homepic'
-import abs from "../../assets/Abstract Design.png";
-import cont from "../../assets/Container.png";
+import abs from "../../../public/assets/Abstract Design.png";
+import cont from "../../../public/assets/Container.png";
 import Contactnav from './contactnav';
 import Contactusform from './contactusform';
 import Foot from "../Home/footer";

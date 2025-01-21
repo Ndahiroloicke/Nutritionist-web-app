@@ -1,8 +1,8 @@
-import bigpic from "../../assets/460e0bda998d66dceb40006674dcff12f383089a.png";
-import grids from "../../assets/real grids.png";
-import cust from "../../assets/b4c77114-ea34-4c0a-a248-0e3a97c93499.png";
-import phonp from "../../assets/small phone pic.png";
-import girl from '../../assets/girl.png'
+import bigpic from "../../../public/assets/460e0bda998d66dceb40006674dcff12f383089a.png";
+import grids from "../../../public/assets/real grids.png";
+import cust from "../../../public/assets/b4c77114-ea34-4c0a-a248-0e3a97c93499.png";
+import phonp from "../../../public/assets/small phone pic.png";
+import girl from '../../../public/assets/girl.png'
 import { Link } from "react-router-dom";
 
 const Bigscreen = () => {

@@ -1,6 +1,6 @@
 import Blogsample from "./blogsample";
 import PropTypes from "prop-types";
-import mist from "../../assets/Spin@1x-1.0s-200px-200px.svg"
+import mist from "../../../public/assets/Spin@1x-1.0s-200px-200px.svg"
 
 const Displayblog = ({blog}) => {
     if (!blog) {

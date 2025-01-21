@@ -1,7 +1,7 @@
 import Overview from "./Testoverr";
-import pic from "../../assets/mark.png";
-import pic2 from "../../assets/Emily-1.png";
-import pic3 from "../../assets/Emily-2.png";
+import pic from "../../../public/assets/mark.png";
+import pic2 from "../../../public/assets/Emily-1.png";
+import pic3 from "../../../public/assets/Emily-2.png";
 function Testimonials() {
   return (
     <div className="flex flex-col gap-4 my-[60px] mx-3">

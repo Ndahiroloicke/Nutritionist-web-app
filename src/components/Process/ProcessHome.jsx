@@ -1,21 +1,21 @@
 import Navbar from "../Home/Navbar";
 import Uppertab from "../Home/Uppertab";
 import Homepic from "../Team/homepic";
-import abs from "../../assets/Abstract Design.png";
-import cont from "../../assets/Container.png";
+import abs from "../../../public/assets/Abstract Design.png";
+import cont from "../../../public/assets/Container.png";
 import Explan from "./explan";
 import Proud from "../services/proud";
 import Foot from "../Home/footer";
-import icon1 from "../../assets/Icon Container.png"
-import icon2 from "../../assets/Icon Container-1.png"
-import icon3 from "../../assets/Icon Container-2.png"
-import icon4 from "../../assets/Icon Container-3.png"
-import icon5 from "../../assets/Icon Container-4.png"
-import icon6 from "../../assets/Icon Container-5 (2).png"
-import icon7 from "../../assets/Icon Container-6.png"
-import icon8 from "../../assets/Icon Container-7.png"
-import icon9 from "../../assets/Icon Container-8.png"
-import icon10 from "../../assets/Icon Container-9.png"
+import icon1 from "../../../public/assets/Icon Container.png"
+import icon2 from "../../../public/assets/Icon Container-1.png"
+import icon3 from "../../../public/assets/Icon Container-2.png"
+import icon4 from "../../../public/assets/Icon Container-3.png"
+import icon5 from "../../../public/assets/Icon Container-4.png"
+import icon6 from "../../../public/assets/Icon Container-5 (2).png"
+import icon7 from "../../../public/assets/Icon Container-6.png"
+import icon8 from "../../../public/assets/Icon Container-7.png"
+import icon9 from "../../../public/assets/Icon Container-8.png"
+import icon10 from "../../../public/assets/Icon Container-9.png"
 
 const ProcessHome = () => {
   return (

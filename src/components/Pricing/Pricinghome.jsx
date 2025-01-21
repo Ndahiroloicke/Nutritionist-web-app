@@ -1,6 +1,6 @@
 import Homepic from "../Team/homepic";
-import abs from "../../assets/Abstract Design.png";
-import cont from "../../assets/Container.png";
+import abs from "../../../public/assets/Abstract Design.png";
+import cont from "../../../public/assets/Container.png";
 import Uppertab from "../Home/Uppertab";
 import Navbar from "../Home/Navbar";
 import Button2 from "./button2";

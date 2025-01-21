@@ -1,6 +1,6 @@
 
-import tick from "../../assets/tick.png"
-import cross from "../../assets/cross.png"
+import tick from "../../../public/assets/tick.png"
+import cross from "../../../public/assets/cross.png"
 import Pri from "./pri"
 
 const Pricingdesc = () => {

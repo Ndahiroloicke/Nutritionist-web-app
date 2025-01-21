@@ -1,5 +1,5 @@
 import Question from "./question";
-import petals from "../../assets/petals-removebg-preview.png"
+import petals from "../../../public/assets/petals-removebg-preview.png"
 import { Link } from "react-router-dom";
 
 const FAQ = () => {
