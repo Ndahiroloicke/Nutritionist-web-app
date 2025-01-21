@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const Pri = ({ prides, img1, img2, img3 }) => {
   return (
     <div className="w-screen sm:flex-shrink-0 flex flex-row items-center justify-between px-[20px] py-[32px]">
-      <p className="w-1/2 text-2xl min-w-full">{prides}</p>
+      <p className="w-1/2 text-xl min-w-full">{prides}</p>
       <div className="min-w-full">
       <img src={img1} alt="plan 1" className="mx-auto sm:w-[32px] w-[52px]" />
       </div>
