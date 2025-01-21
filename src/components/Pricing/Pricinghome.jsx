@@ -17,7 +17,6 @@ const Pricinghome = () => {
       <Uppertab />
       <Navbar />
       <Homepic
-        cla="text-[30px] font-bold ml-[540px] -mt-[40px] mb-[40px]"
         abs={abs}
         cont={cont}
         h="Our Pricing"
@@ -25,7 +24,7 @@ const Pricinghome = () => {
       />
       <Button2 setYearlyPricing={setYearlyPricing} yearlyPricing={yearlyPricing} />
       {yearlyPricing ?
-      <div className="flex flex-row justify-between mt-[120px] px-[80px]">
+      <div className="flex flex-col space-y-10 sm:flex-row justify-between mt-[120px] px-[80px]">
         <Pricing
         planh="Basic Plan"
         price="$199"
@@ -58,7 +57,7 @@ const Pricinghome = () => {
           p4="Customized meal plans and recipe suggestions based on your preferences and nutritional needs."
           p5="Priority email and phone support for immediate assistance."
         />
-      </div>:<div className="flex flex-row justify-between mt-[120px] px-[80px]">
+      </div>:<div className="flex flex-col space-y-10 sm:flex-row justify-between mt-[120px] px-[80px]">
         <Pricing
         planh="Basic Plan"
         price="$49"

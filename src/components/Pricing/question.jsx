@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Qadd from "../../../public/assets/Qadd.png";
 import Qcross from "../../../public/assets/Qcross.png";
-import Proptypes from "prop-types"
+import Proptypes from "prop-types";
 
-const Question = ({Qt,longp}) => {
+const Question = ({ Qt, longp }) => {
   const [cross, setcross] = useState(false);
   const [add, setadd] = useState(true);
 
@@ -12,23 +12,22 @@ const Question = ({Qt,longp}) => {
     setadd(false);
   };
   return (
-    <div className="w-[803px] flex flex-row justify-between px-[50px]  py-[30px]">
+    <div className="w-full flex flex-row items-center justify-between sm:justify-between sm:px-[50px]  sm:py-[30px]">
       <div className="">
-        <h1 onClick={handlecross} className="font-semibold cursor-pointer">{Qt}</h1>
-        {cross && (
-          <p className="w-[600px]">
-            {longp}
-          </p>
-        )}
+        <h1 onClick={handlecross} className="font-semibold cursor-pointer">
+          {Qt}
+        </h1>
+        {cross && <p className="">{longp}</p>}
       </div>
       <div>
         {add && (
-          <button>
+          <button className="size-32">
             <img src={Qadd} alt="" />
           </button>
         )}
         {cross && (
           <button
+            className="size-32"
             onClick={() => {
               setcross(false);
               setadd(true);
@@ -41,9 +40,9 @@ const Question = ({Qt,longp}) => {
     </div>
   );
 };
-Question.propTypes ={
+Question.propTypes = {
   Qt: Proptypes.string.isRequired,
-  longp: Proptypes.string.isRequired
-}
+  longp: Proptypes.string.isRequired,
+};
 
 export default Question;

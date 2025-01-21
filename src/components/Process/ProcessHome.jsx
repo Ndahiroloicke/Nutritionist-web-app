@@ -23,15 +23,14 @@ const ProcessHome = () => {
       <Uppertab />
       <Navbar />
       <Homepic
-        cla="text-[30px] font-bold ml-[360px] -mt-[40px] mb-[40px]"
         abs={abs}
         cont={cont}
         h="Your Journey to Health and Wellness"
         p='At Nutritionist, we believe in providing a personalized and comprehensive approach to help you achieve your health and wellness goals. Our "How it Works" process is designed to guide you through each step of your journey, ensuring that you receive the support, knowledge, and tools you need to succeed. Here is a detailed breakdown of our process:'
       />
-      <div className="w-full">
-        <div className="w-fit mx-auto flex flex-row">
-        <div className="ml-[70px]">
+      <div className="px-[100px]">
+        <div className="flex flex-col space-x-8 sm:flex-row">
+        <div className="">
       <Explan
         number="01"
         img={icon2}

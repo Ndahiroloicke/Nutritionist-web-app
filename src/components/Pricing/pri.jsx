@@ -1,22 +1,27 @@
-import Proptypes from "prop-types"
+import PropTypes from "prop-types";
 
-
-const Pri = ({prides,img1,img2,img3}) => {
+const Pri = ({ prides, img1, img2, img3 }) => {
   return (
-    <div>
-         <div className="flex flex-row justify-between items-center py-[32px] px-[20px]">
-            <p className="w-[320px]">{prides}</p>
-            <img src={img1} alt="" className="w-[32px]"/>
-            <img src={img2} alt=""  className=" w-[32px]"/>
-            <img src={img3} alt=""  className="w-[32px] mr-[56px]"/>
-        </div>
+    <div className="w-screen sm:flex-shrink-0 flex flex-row items-center justify-between px-[20px] py-[32px]">
+      <p className="w-1/2 text-2xl min-w-full">{prides}</p>
+      <div className="min-w-full">
+      <img src={img1} alt="plan 1" className="mx-auto sm:w-[32px] w-[52px]" />
+      </div>
+      <div className="min-w-full">
+      <img src={img2} alt="plan 2" className="mx-auto w-[52px] sm:w-[32px]" />
+      </div>
+      <div className="min-w-full">
+      <img src={img3} alt="plan 3" className="mx-auto w-[52px] sm:w-[32px]" />
+      </div>
     </div>
-  )
-}
+  );
+};
+
 Pri.propTypes = {
-  prides:Proptypes.string.isRequired,
-  img1:Proptypes.string.isRequired,
-  img3:Proptypes.string.isRequired,
-  img2:Proptypes.string.isRequired
-}
-export default Pri
+  prides: PropTypes.string.isRequired,
+  img1: PropTypes.string.isRequired,
+  img3: PropTypes.string.isRequired,
+  img2: PropTypes.string.isRequired,
+};
+
+export default Pri;
