@@ -4,7 +4,7 @@ import usefetch from "./usefetch";
 
 const Blogdetails = () => {
   const { num } = useParams();
-  const { data } = usefetch(`http://localhost:7000/blogs`);
+  const { data } = usefetch(`https://nutritionist-jase.onrender.com/blogs`);
 
   if (!data) {
     return <div>Loading...</div>;
