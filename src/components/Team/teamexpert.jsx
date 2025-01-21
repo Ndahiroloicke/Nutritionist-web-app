@@ -21,7 +21,7 @@ const Teamexp = ({ employee }) => {
   }
 
   return (
-    <div className="px-[100px]">
+    <div className="">
       <Homepic
         abs={abs}
         cont={cont}
@@ -36,7 +36,7 @@ const Teamexp = ({ employee }) => {
         fifthnav="Technology and Development"
         handleClickTest={filterItems}
       />
-      <div className="flex flex-row">
+      <div className="flex flex-col sm:flex-row">
         {menuitems.map((item) => (
           <Expert
             pic={item.pic}

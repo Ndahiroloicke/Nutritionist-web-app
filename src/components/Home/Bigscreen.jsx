@@ -9,7 +9,7 @@ const Bigscreen = () => {
   return (
     <div className="flex flex-col justify-between sm:flex-row">
       <div>
-        <img src={girl} alt="" className="w-screen h-[650px]"/>
+        <img src={girl} alt="" className="w-screen hidden sm:flex  h-[650px]"/>
       </div>
       <div className="big-pic sm:hidden">
         <img src={grids} alt="" className="hidden md:block md:w-[650px]" />
@@ -40,7 +40,7 @@ const Bigscreen = () => {
             <p className="font-bold sm:hidden text-6xl flex flex-col mt-10 mb-11 items-center w-fit ">
               <span>Personalized </span><span>Nutrition Coaching</span>
             </p>
-            <p className="font-bold text-6xl flex flex-col mt-10 mb-11 w-fit ">
+            <p className="font-bold hidden text-6xl sm:flex flex-col mt-10 mb-11 w-fit ">
               <span>Personalized Nutrition</span><span>Coaching</span>
             </p>
             <p className="text-lg sm:w-4/5">

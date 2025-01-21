@@ -1,21 +1,21 @@
 import PropTypes from "prop-types";
 const Homepic = ({ abs, cont, h, p, cla }) => {
   return (
-    <div className="px-[100px]">
-      <div className="bg-[#F6FBE9] rounded-t-xl mt-[100px] w-full">
-        <div className="w-fit mx-auto">
-          <img src={abs} alt="" className="w-[643px] h-[326px] " />
+    <div className="sm:px-[100px]">
+      <div className="bg-[#F6FBE9] sm:px-[200px] pb-16 rounded-t-xl w-full mt-[100px]">
+        <div className="">
+          <img src={abs} alt="" className="sm:w-fit mx-auto" />
           <img
             src={cont}
             alt=""
-            className=" relative -top-56 left-72"
+            className="relative bottom-44 w-fit mx-auto"
           />
           </div>
-          <div className="w-fit mx-auto">
-          <h1 className="text-[30px] font-bold mb-7">{h}</h1>
+          <div className="">
+          <h1 className="text-[30px] w-fit mx-auto font-bold mb-7">{h}</h1>
           </div>
-          <div className="w-fit mx-auto">
-          <p className="ml-[80px] mr-[80px] pb-[50px]">{p}</p>
+          <div className="w-96 sm:w-full mx-auto">
+          <p className="">{p}</p>
           </div>
       </div>
     </div>

@@ -32,7 +32,7 @@ function Servicehome() {
         <div>
           <img src={grids} className="" alt="" />
         </div>
-        <div className="w-full sm:hidden">
+        <div className="w-full hidden sm:hidden">
         <div className="w-fit sm:mx-auto flex flex-row">
         <div className="flex flex-row ">
           <div>
