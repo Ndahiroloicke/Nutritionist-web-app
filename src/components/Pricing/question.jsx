@@ -3,7 +3,7 @@ import Qadd from "../../../public/assets/Qadd.png";
 import Qcross from "../../../public/assets/Qcross.png";
 import Proptypes from "prop-types";
 
-const Question = ({ Qt, longp }) => {
+const   Question = ({ Qt, longp }) => {
   const [cross, setcross] = useState(false);
   const [add, setadd] = useState(true);
 
@@ -12,12 +12,12 @@ const Question = ({ Qt, longp }) => {
     setadd(false);
   };
   return (
-    <div className="w-full flex flex-row items-center justify-between sm:justify-between sm:px-[50px]  sm:py-[30px]">
+    <div className="w-full flex flex-row items-center justify-between sm:justify-between px-7 sm:px-[50px]  sm:py-[2px]">
       <div className="">
         <h1 onClick={handlecross} className="font-semibold cursor-pointer">
           {Qt}
         </h1>
-        {cross && <p className="">{longp}</p>}
+        {cross && <p className="sm:w-[600px]">{longp}</p>}
       </div>
       <div>
         {add && (

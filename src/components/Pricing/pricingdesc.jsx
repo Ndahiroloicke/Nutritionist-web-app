@@ -7,17 +7,17 @@ const Pricingdesc = () => {
     <div className="bg-[#F6FBE9] ml-6 sm:mx-[80px] h-fit sm:h-[1150px] mt-12 rounded-[12px]">
       <div className="hidden sm:block">
         <div className="px-[60px] py-[80px]">
-          <div className="flex flex-row justify-between">
-            <p className="bg-[#234338] text-white py-[16px] px-[24px] text-[20px] font-medium w-[392px] h-[62px] rounded-[8px]">
+          <div className="flex flex-row justify-between w-full space-x-4">
+            <p className="bg-[#234338] text-white py-[16px] px-[24px] text-[20px] font-medium w-1/3 h-[62px] rounded-[8px]">
               Features
             </p>
-            <p className="bg-[#234338] h-[64px] text-white py-[16px] px-[24px] rounded-[8px] text-[20px] font-medium w-[128px]">
+            <p className="bg-[#234338] h-[64px] text-white py-[16px] px-[24px] rounded-[8px] text-[20px] font-medium w-1/3">
               Free Plan
             </p>
-            <p className="bg-[#234338] h-[64px] text-[white] py-[16px] px-[24px] rounded-[8px] text-[20px] font-medium w-fit">
+            <p className="bg-[#234338] h-[64px] text-[white] py-[16px] px-[24px] rounded-[8px] text-[20px] font-medium w-1/3">
               premium Plan
             </p>
-            <p className="bg-[#234338] text-[white] h-[64px] py-[16px] px-[24px] rounded-[8px] text-[20px] font-medium w-fit">
+            <p className="bg-[#234338] text-[white] h-[64px] py-[16px] px-[24px] rounded-[8px] text-[20px] font-medium w-1/3">
               Ultimate Plan
             </p>
           </div>
@@ -27,7 +27,7 @@ const Pricingdesc = () => {
             img1={tick}
             img2={tick}
           />
-          <div className="w-screen bg-black h-[0.5px]"></div>
+          <div className="w-full bg-black h-[0.5px]"></div>
           <Pri prides="Mobile App Access" img3={tick} img1={tick} img2={tick} />
           <div className="w-full bg-black h-[0.5px]"></div>
           <Pri prides="Email Support" img3={tick} img1={tick} img2={tick} />
@@ -72,7 +72,7 @@ const Pricingdesc = () => {
           <Pri prides="Phone Support" img3={tick} img1={cross} img2={cross} />
         </div>
       </div>
-      <div className="overflow-x-auto py-5 px-3 w-full">
+      <div className="overflow-x-auto block sm:hidden py-5 px-3 w-full">
         <div className="flex flex-row space-x-2">
           <div className="bg-[#234338] min-w-full text-white px-5 text-2xl rounded-xl py-6">
             <p className="w-fit mx-auto">Features</p>

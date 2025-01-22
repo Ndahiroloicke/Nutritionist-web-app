@@ -24,30 +24,30 @@ const FAQ = () => {
             optimal health and wellness."
             Qt="What is personalized nutrition coaching?"
           />
-          <div className="bg-black w-full sm:ml-[50px] h-[0.2px]"></div>
+          <div className="bg-black w-full h-[0.2px]"></div>
           <Question
             longp="
 Nutrition coaching can provide personalized guidance on healthy eating habits, tailored meal plans, and accountability, empowering you to make sustainable lifestyle changes that support weight loss goals effectively."
             Qt="How can nutrition coaching help me lose weight?"
           />
-          <div className="bg-black w-full sm:ml-[50px] h-[0.2px]"></div>
+          <div className="bg-black w-full h-[0.2px]"></div>
           <Question
             longp="Absolutely! A balanced nutrition plan emphasizes moderation and flexibility, allowing you to enjoy your favorite foods in moderation while prioritizing nutrient-dense choices to support overall health and weight management"
             Qt="Can I still enjoy my favorite foods while on a nutrition plan?"
           />
-          <div className="bg-black w-full sm:ml-[50px] h-[0.2px]"></div>
+          <div className="bg-black w-full h-[0.2px]"></div>
           <Question
             longp="
 You'll connect with your nutritionist regularly, usually once a week or month, to track progress, adjust goals, and get ongoing support tailored to your needs."
             Qt="How often will I have contact with my nutritionist?"
           />
-          <div className="bg-black w-full sm:ml-[50px] h-[0.2px]"></div>
+          <div className="bg-black w-full h-[0.2px]"></div>
           <Question
             longp="
 Results vary, but with consistent effort, you could start noticing positive changes in a few weeks to a couple of months."
             Qt="How long will it take to see results?"
           />
-          <div className="bg-black w-full sm:ml-[50px] h-[0.2px]"></div>
+          <div className="bg-black w-full h-[0.2px]"></div>
           <Question
             longp="
 Yes, our meal plans and recipes cater to vegetarians and vegans, offering delicious and nutritious options tailored to your dietary preferences."
