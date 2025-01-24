@@ -53,8 +53,8 @@ const Bigscreen = () => {
             </p>
           </div>
           <div className="w-fit mx-auto sm:ml-0 sm:px-10 space-x-4 mt-10">
-            <button className="bg-[#CBEA7B] font-bold py-6 px-7 rounded-lg">Get Started</button>
-            <button className="bg-[#F6FBE9] border-2 border-[#E5F5BD] rounded-lg font-bold py-6 px-7">Book a Demo</button>
+            <Link to="/contactus"><button className="bg-[#CBEA7B] font-bold py-6 px-7 rounded-lg">Get Started</button></Link>
+            <Link to="/pricing"><button className="bg-[#F6FBE9] border-2 border-[#E5F5BD] rounded-lg font-bold py-6 px-7">Book a Demo</button></Link>
           </div>
         </div>
       </div>

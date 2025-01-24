@@ -21,8 +21,8 @@ const Contactusform = () => {
   }
   return (
     <form onSubmit={handleSub}>
-    <div className="flex flex-row bg-[#F6FBE9] pb-[60px] mt-[60px] mb-[100px] rounded-[30px] w-fit ml-[96px] pt-[40px] justify-between">
-      <div className="flex flex-col mt-[40px] ml-[20px] mr-[20px] pr-[12px]">
+    <div className="flex flex-col sm:flex-row bg-[#F6FBE9] px-4 pb-[60px] mt-[60px] mb-[100px] rounded-[30px] w-fit sm:mx-auto pt-[40px] justify-between">
+      <div className="flex flex-col sm:mt-[40px] sm:ml-[20px] mr-[20px] px-[12px]">
         <div className="flex flex-row mb-[30px]">
           <div className="mr-[5px]">
             <label htmlFor=""  className="font-semibold">
@@ -32,7 +32,7 @@ const Contactusform = () => {
             value={full}
             onChange={(e)=>setfull(e.target.value)}
               type="text"
-              className="border-[1px] outline-none text-[20px] px-[20px] w-[269.75px] mr-[10px] bg-[#EEF8D3] h-[60px] block"
+              className="border-[1px] outline-none text-[20px] px-[20px] w-[200px] sm:w-[269.75px] mr-[10px] bg-[#EEF8D3] h-[60px] block"
             />
           </div>
           <div>
