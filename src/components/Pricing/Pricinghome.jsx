@@ -24,7 +24,7 @@ const Pricinghome = () => {
       />
       <Button2 setYearlyPricing={setYearlyPricing} yearlyPricing={yearlyPricing} />
       {yearlyPricing ?
-      <div className="flex flex-col space-y-10 sm:flex-row justify-between mt-[120px] px-[80px]">
+      <div className="flex flex-col space-y-10 sm:space-y-0 sm:flex-row justify-between mt-[120px] px-[80px]">
         <Pricing
         planh="Basic Plan"
         price="$199"
